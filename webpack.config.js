@@ -11,7 +11,7 @@ module.exports = {
   mode: 'development',
   entry: ['babel-polyfill', './src/index.js'],
   output: {
-    path: path.resolve(__dirname, 'public'),
+    path: path.resolve(__dirname),
     filename: 'bundle.js',
   },
   module: {
