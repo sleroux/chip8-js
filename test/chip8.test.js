@@ -1,7 +1,7 @@
 import fs from 'fs';
 
-import Chip8Emulator from '../client/components/chip8_emulator/emulator.js';
-import fontset from '../client/components/chip8_emulator/fontset.js';
+import Chip8Emulator from '../src/lib/chip8.js';
+import fontset from '../src/lib/fontset.js';
 
 const testProgramPath = "/programs/MAZE";
 

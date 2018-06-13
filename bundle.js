@@ -10659,38 +10659,76 @@ module.exports = __webpack_require__(/*! ./modules/_core */ "./node_modules/core
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js??ref--6-1!./node_modules/sass-loader/lib/loader.js??ref--6-2!./src/components/chip8_emulator/styles/styles.scss":
-/*!*************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader??ref--6-1!./node_modules/sass-loader/lib/loader.js??ref--6-2!./src/components/chip8_emulator/styles/styles.scss ***!
-  \*************************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/index.js??ref--6-1!./node_modules/sass-loader/lib/loader.js??ref--6-2!./src/components/emulator/styles.scss":
+/*!************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/sass-loader/lib/loader.js??ref--6-2!./src/components/emulator/styles.scss ***!
+  \************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(true);
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(true);
 // imports
 
 
 // module
-exports.push([module.i, "canvas {\n  background-color: red;\n  image-rendering: pixelated; }\n", "", {"version":3,"sources":["/Users/sleroux/development/chip8-js/src/components/chip8_emulator/styles/src/components/chip8_emulator/styles/styles.scss"],"names":[],"mappings":"AAAA;EACI,sBAAqB;EACrB,2BAA0B,EAC7B","file":"styles.scss","sourcesContent":["canvas {\n    background-color: red;\n    image-rendering: pixelated;\n}\n"],"sourceRoot":""}]);
+exports.push([module.i, ".emulator_view {\n  display: flex;\n  margin: 20px; }\n", "", {"version":3,"sources":["/Users/sleroux/development/chip8-js/src/components/emulator/src/components/emulator/styles.scss"],"names":[],"mappings":"AAAA;EACI,cAAa;EACb,aAAY,EACf","file":"styles.scss","sourcesContent":[".emulator_view {\n    display: flex;\n    margin: 20px;\n}\n"],"sourceRoot":""}]);
 
 // exports
 
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js??ref--6-1!./node_modules/sass-loader/lib/loader.js??ref--6-2!./src/styles/styles.scss":
-/*!***********************************************************************************************************************!*\
-  !*** ./node_modules/css-loader??ref--6-1!./node_modules/sass-loader/lib/loader.js??ref--6-2!./src/styles/styles.scss ***!
-  \***********************************************************************************************************************/
+/***/ "./node_modules/css-loader/index.js??ref--6-1!./node_modules/sass-loader/lib/loader.js??ref--6-2!./src/components/keyboard_layout/styles.scss":
+/*!*******************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/sass-loader/lib/loader.js??ref--6-2!./src/components/keyboard_layout/styles.scss ***!
+  \*******************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(true);
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(true);
 // imports
 
 
 // module
-exports.push([module.i, ".emulator-container {\n  display: flex;\n  width: 100%;\n  height: 100%;\n  align-items: center;\n  justify-content: center; }\n", "", {"version":3,"sources":["/Users/sleroux/development/chip8-js/src/styles/src/styles/styles.scss"],"names":[],"mappings":"AAAA;EACI,cAAa;EACb,YAAW;EACX,aAAY;EACZ,oBAAmB;EACnB,wBAAuB,EAC1B","file":"styles.scss","sourcesContent":[".emulator-container {\n    display: flex;\n    width: 100%;\n    height: 100%;\n    align-items: center;\n    justify-content: center;\n}\n"],"sourceRoot":""}]);
+exports.push([module.i, "table {\n  font-family: 'Press Start 2P', cursive;\n  color: #4CFF00; }\n\np {\n  font-family: 'Press Start 2P', cursive;\n  color: #4CFF00; }\n\n.title {\n  display: flex;\n  justify-content: center; }\n\n.key_layout_container {\n  margin: 34px; }\n", "", {"version":3,"sources":["/Users/sleroux/development/chip8-js/src/components/keyboard_layout/src/components/keyboard_layout/styles.scss"],"names":[],"mappings":"AAAA;EACI,uCAAsC;EACtC,eAAc,EACjB;;AAED;EACI,uCAAsC;EACtC,eAAc,EACjB;;AAED;EACI,cAAa;EACb,wBAAuB,EAC1B;;AAED;EACI,aAAY,EACf","file":"styles.scss","sourcesContent":["table {\n    font-family: 'Press Start 2P', cursive;\n    color: #4CFF00;\n}\n\np {\n    font-family: 'Press Start 2P', cursive;\n    color: #4CFF00;\n}\n\n.title {\n    display: flex;\n    justify-content: center;\n}\n\n.key_layout_container {\n    margin: 34px;\n}\n"],"sourceRoot":""}]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js??ref--6-1!./node_modules/sass-loader/lib/loader.js??ref--6-2!./src/components/rom_selector/styles.scss":
+/*!****************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/sass-loader/lib/loader.js??ref--6-2!./src/components/rom_selector/styles.scss ***!
+  \****************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(true);
+// imports
+
+
+// module
+exports.push([module.i, ".select_a_rom {\n  font-family: 'Press Start 2P', cursive;\n  color: #4CFF00; }\n\n.rom_option_button {\n  display: flex;\n  justify-content: center; }\n\n.row_selector {\n  display: flex;\n  flex-direction: column;\n  align-items: center; }\n", "", {"version":3,"sources":["/Users/sleroux/development/chip8-js/src/components/rom_selector/src/components/rom_selector/styles.scss"],"names":[],"mappings":"AAAA;EACI,uCAAsC;EACtC,eAAc,EACjB;;AAED;EACI,cAAa;EACb,wBAAuB,EAC1B;;AAED;EACI,cAAa;EACb,uBAAsB;EACtB,oBAAmB,EACtB","file":"styles.scss","sourcesContent":[".select_a_rom {\n    font-family: 'Press Start 2P', cursive;\n    color: #4CFF00;\n}\n\n.rom_option_button {\n    display: flex;\n    justify-content: center;\n}\n\n.row_selector {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n}\n"],"sourceRoot":""}]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js??ref--6-1!./node_modules/sass-loader/lib/loader.js??ref--6-2!./src/styles.scss":
+/*!****************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/sass-loader/lib/loader.js??ref--6-2!./src/styles.scss ***!
+  \****************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(true);
+// imports
+exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);", ""]);
+
+// module
+exports.push([module.i, "body {\n  background-color: black; }\n\n.app-container {\n  display: flex;\n  flex-direction: column;\n  width: 100%;\n  height: 100%;\n  align-items: center;\n  justify-content: center; }\n\n.title {\n  font-family: 'Press Start 2P', cursive;\n  color: #4CFF00; }\n", "", {"version":3,"sources":["/Users/sleroux/development/chip8-js/src/src/styles.scss"],"names":[],"mappings":"AAEA;EACI,wBAAuB,EAC1B;;AAED;EACI,cAAa;EACb,uBAAsB;EACtB,YAAW;EACX,aAAY;EACZ,oBAAmB;EACnB,wBAAuB,EAC1B;;AAED;EACI,uCAAsC;EACtC,eAAc,EACjB","file":"styles.scss","sourcesContent":["@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');\n\nbody {\n    background-color: black;\n}\n\n.app-container {\n    display: flex;\n    flex-direction: column;\n    width: 100%;\n    height: 100%;\n    align-items: center;\n    justify-content: center;\n}\n\n.title {\n    font-family: 'Press Start 2P', cursive;\n    color: #4CFF00;\n}\n"],"sourceRoot":""}]);
 
 // exports
 
@@ -11622,6 +11660,595 @@ function checkPropTypes(typeSpecs, values, location, componentName, getStack) {
 }
 
 module.exports = checkPropTypes;
+
+
+/***/ }),
+
+/***/ "./node_modules/prop-types/factoryWithTypeCheckers.js":
+/*!************************************************************!*\
+  !*** ./node_modules/prop-types/factoryWithTypeCheckers.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/**
+ * Copyright (c) 2013-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+
+
+var emptyFunction = __webpack_require__(/*! fbjs/lib/emptyFunction */ "./node_modules/fbjs/lib/emptyFunction.js");
+var invariant = __webpack_require__(/*! fbjs/lib/invariant */ "./node_modules/fbjs/lib/invariant.js");
+var warning = __webpack_require__(/*! fbjs/lib/warning */ "./node_modules/fbjs/lib/warning.js");
+var assign = __webpack_require__(/*! object-assign */ "./node_modules/object-assign/index.js");
+
+var ReactPropTypesSecret = __webpack_require__(/*! ./lib/ReactPropTypesSecret */ "./node_modules/prop-types/lib/ReactPropTypesSecret.js");
+var checkPropTypes = __webpack_require__(/*! ./checkPropTypes */ "./node_modules/prop-types/checkPropTypes.js");
+
+module.exports = function(isValidElement, throwOnDirectAccess) {
+  /* global Symbol */
+  var ITERATOR_SYMBOL = typeof Symbol === 'function' && Symbol.iterator;
+  var FAUX_ITERATOR_SYMBOL = '@@iterator'; // Before Symbol spec.
+
+  /**
+   * Returns the iterator method function contained on the iterable object.
+   *
+   * Be sure to invoke the function with the iterable as context:
+   *
+   *     var iteratorFn = getIteratorFn(myIterable);
+   *     if (iteratorFn) {
+   *       var iterator = iteratorFn.call(myIterable);
+   *       ...
+   *     }
+   *
+   * @param {?object} maybeIterable
+   * @return {?function}
+   */
+  function getIteratorFn(maybeIterable) {
+    var iteratorFn = maybeIterable && (ITERATOR_SYMBOL && maybeIterable[ITERATOR_SYMBOL] || maybeIterable[FAUX_ITERATOR_SYMBOL]);
+    if (typeof iteratorFn === 'function') {
+      return iteratorFn;
+    }
+  }
+
+  /**
+   * Collection of methods that allow declaration and validation of props that are
+   * supplied to React components. Example usage:
+   *
+   *   var Props = require('ReactPropTypes');
+   *   var MyArticle = React.createClass({
+   *     propTypes: {
+   *       // An optional string prop named "description".
+   *       description: Props.string,
+   *
+   *       // A required enum prop named "category".
+   *       category: Props.oneOf(['News','Photos']).isRequired,
+   *
+   *       // A prop named "dialog" that requires an instance of Dialog.
+   *       dialog: Props.instanceOf(Dialog).isRequired
+   *     },
+   *     render: function() { ... }
+   *   });
+   *
+   * A more formal specification of how these methods are used:
+   *
+   *   type := array|bool|func|object|number|string|oneOf([...])|instanceOf(...)
+   *   decl := ReactPropTypes.{type}(.isRequired)?
+   *
+   * Each and every declaration produces a function with the same signature. This
+   * allows the creation of custom validation functions. For example:
+   *
+   *  var MyLink = React.createClass({
+   *    propTypes: {
+   *      // An optional string or URI prop named "href".
+   *      href: function(props, propName, componentName) {
+   *        var propValue = props[propName];
+   *        if (propValue != null && typeof propValue !== 'string' &&
+   *            !(propValue instanceof URI)) {
+   *          return new Error(
+   *            'Expected a string or an URI for ' + propName + ' in ' +
+   *            componentName
+   *          );
+   *        }
+   *      }
+   *    },
+   *    render: function() {...}
+   *  });
+   *
+   * @internal
+   */
+
+  var ANONYMOUS = '<<anonymous>>';
+
+  // Important!
+  // Keep this list in sync with production version in `./factoryWithThrowingShims.js`.
+  var ReactPropTypes = {
+    array: createPrimitiveTypeChecker('array'),
+    bool: createPrimitiveTypeChecker('boolean'),
+    func: createPrimitiveTypeChecker('function'),
+    number: createPrimitiveTypeChecker('number'),
+    object: createPrimitiveTypeChecker('object'),
+    string: createPrimitiveTypeChecker('string'),
+    symbol: createPrimitiveTypeChecker('symbol'),
+
+    any: createAnyTypeChecker(),
+    arrayOf: createArrayOfTypeChecker,
+    element: createElementTypeChecker(),
+    instanceOf: createInstanceTypeChecker,
+    node: createNodeChecker(),
+    objectOf: createObjectOfTypeChecker,
+    oneOf: createEnumTypeChecker,
+    oneOfType: createUnionTypeChecker,
+    shape: createShapeTypeChecker,
+    exact: createStrictShapeTypeChecker,
+  };
+
+  /**
+   * inlined Object.is polyfill to avoid requiring consumers ship their own
+   * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is
+   */
+  /*eslint-disable no-self-compare*/
+  function is(x, y) {
+    // SameValue algorithm
+    if (x === y) {
+      // Steps 1-5, 7-10
+      // Steps 6.b-6.e: +0 != -0
+      return x !== 0 || 1 / x === 1 / y;
+    } else {
+      // Step 6.a: NaN == NaN
+      return x !== x && y !== y;
+    }
+  }
+  /*eslint-enable no-self-compare*/
+
+  /**
+   * We use an Error-like object for backward compatibility as people may call
+   * PropTypes directly and inspect their output. However, we don't use real
+   * Errors anymore. We don't inspect their stack anyway, and creating them
+   * is prohibitively expensive if they are created too often, such as what
+   * happens in oneOfType() for any type before the one that matched.
+   */
+  function PropTypeError(message) {
+    this.message = message;
+    this.stack = '';
+  }
+  // Make `instanceof Error` still work for returned errors.
+  PropTypeError.prototype = Error.prototype;
+
+  function createChainableTypeChecker(validate) {
+    if (true) {
+      var manualPropTypeCallCache = {};
+      var manualPropTypeWarningCount = 0;
+    }
+    function checkType(isRequired, props, propName, componentName, location, propFullName, secret) {
+      componentName = componentName || ANONYMOUS;
+      propFullName = propFullName || propName;
+
+      if (secret !== ReactPropTypesSecret) {
+        if (throwOnDirectAccess) {
+          // New behavior only for users of `prop-types` package
+          invariant(
+            false,
+            'Calling PropTypes validators directly is not supported by the `prop-types` package. ' +
+            'Use `PropTypes.checkPropTypes()` to call them. ' +
+            'Read more at http://fb.me/use-check-prop-types'
+          );
+        } else if ("development" !== 'production' && typeof console !== 'undefined') {
+          // Old behavior for people using React.PropTypes
+          var cacheKey = componentName + ':' + propName;
+          if (
+            !manualPropTypeCallCache[cacheKey] &&
+            // Avoid spamming the console because they are often not actionable except for lib authors
+            manualPropTypeWarningCount < 3
+          ) {
+            warning(
+              false,
+              'You are manually calling a React.PropTypes validation ' +
+              'function for the `%s` prop on `%s`. This is deprecated ' +
+              'and will throw in the standalone `prop-types` package. ' +
+              'You may be seeing this warning due to a third-party PropTypes ' +
+              'library. See https://fb.me/react-warning-dont-call-proptypes ' + 'for details.',
+              propFullName,
+              componentName
+            );
+            manualPropTypeCallCache[cacheKey] = true;
+            manualPropTypeWarningCount++;
+          }
+        }
+      }
+      if (props[propName] == null) {
+        if (isRequired) {
+          if (props[propName] === null) {
+            return new PropTypeError('The ' + location + ' `' + propFullName + '` is marked as required ' + ('in `' + componentName + '`, but its value is `null`.'));
+          }
+          return new PropTypeError('The ' + location + ' `' + propFullName + '` is marked as required in ' + ('`' + componentName + '`, but its value is `undefined`.'));
+        }
+        return null;
+      } else {
+        return validate(props, propName, componentName, location, propFullName);
+      }
+    }
+
+    var chainedCheckType = checkType.bind(null, false);
+    chainedCheckType.isRequired = checkType.bind(null, true);
+
+    return chainedCheckType;
+  }
+
+  function createPrimitiveTypeChecker(expectedType) {
+    function validate(props, propName, componentName, location, propFullName, secret) {
+      var propValue = props[propName];
+      var propType = getPropType(propValue);
+      if (propType !== expectedType) {
+        // `propValue` being instance of, say, date/regexp, pass the 'object'
+        // check, but we can offer a more precise error message here rather than
+        // 'of type `object`'.
+        var preciseType = getPreciseType(propValue);
+
+        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of type ' + ('`' + preciseType + '` supplied to `' + componentName + '`, expected ') + ('`' + expectedType + '`.'));
+      }
+      return null;
+    }
+    return createChainableTypeChecker(validate);
+  }
+
+  function createAnyTypeChecker() {
+    return createChainableTypeChecker(emptyFunction.thatReturnsNull);
+  }
+
+  function createArrayOfTypeChecker(typeChecker) {
+    function validate(props, propName, componentName, location, propFullName) {
+      if (typeof typeChecker !== 'function') {
+        return new PropTypeError('Property `' + propFullName + '` of component `' + componentName + '` has invalid PropType notation inside arrayOf.');
+      }
+      var propValue = props[propName];
+      if (!Array.isArray(propValue)) {
+        var propType = getPropType(propValue);
+        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of type ' + ('`' + propType + '` supplied to `' + componentName + '`, expected an array.'));
+      }
+      for (var i = 0; i < propValue.length; i++) {
+        var error = typeChecker(propValue, i, componentName, location, propFullName + '[' + i + ']', ReactPropTypesSecret);
+        if (error instanceof Error) {
+          return error;
+        }
+      }
+      return null;
+    }
+    return createChainableTypeChecker(validate);
+  }
+
+  function createElementTypeChecker() {
+    function validate(props, propName, componentName, location, propFullName) {
+      var propValue = props[propName];
+      if (!isValidElement(propValue)) {
+        var propType = getPropType(propValue);
+        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of type ' + ('`' + propType + '` supplied to `' + componentName + '`, expected a single ReactElement.'));
+      }
+      return null;
+    }
+    return createChainableTypeChecker(validate);
+  }
+
+  function createInstanceTypeChecker(expectedClass) {
+    function validate(props, propName, componentName, location, propFullName) {
+      if (!(props[propName] instanceof expectedClass)) {
+        var expectedClassName = expectedClass.name || ANONYMOUS;
+        var actualClassName = getClassName(props[propName]);
+        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of type ' + ('`' + actualClassName + '` supplied to `' + componentName + '`, expected ') + ('instance of `' + expectedClassName + '`.'));
+      }
+      return null;
+    }
+    return createChainableTypeChecker(validate);
+  }
+
+  function createEnumTypeChecker(expectedValues) {
+    if (!Array.isArray(expectedValues)) {
+       true ? warning(false, 'Invalid argument supplied to oneOf, expected an instance of array.') : undefined;
+      return emptyFunction.thatReturnsNull;
+    }
+
+    function validate(props, propName, componentName, location, propFullName) {
+      var propValue = props[propName];
+      for (var i = 0; i < expectedValues.length; i++) {
+        if (is(propValue, expectedValues[i])) {
+          return null;
+        }
+      }
+
+      var valuesString = JSON.stringify(expectedValues);
+      return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of value `' + propValue + '` ' + ('supplied to `' + componentName + '`, expected one of ' + valuesString + '.'));
+    }
+    return createChainableTypeChecker(validate);
+  }
+
+  function createObjectOfTypeChecker(typeChecker) {
+    function validate(props, propName, componentName, location, propFullName) {
+      if (typeof typeChecker !== 'function') {
+        return new PropTypeError('Property `' + propFullName + '` of component `' + componentName + '` has invalid PropType notation inside objectOf.');
+      }
+      var propValue = props[propName];
+      var propType = getPropType(propValue);
+      if (propType !== 'object') {
+        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of type ' + ('`' + propType + '` supplied to `' + componentName + '`, expected an object.'));
+      }
+      for (var key in propValue) {
+        if (propValue.hasOwnProperty(key)) {
+          var error = typeChecker(propValue, key, componentName, location, propFullName + '.' + key, ReactPropTypesSecret);
+          if (error instanceof Error) {
+            return error;
+          }
+        }
+      }
+      return null;
+    }
+    return createChainableTypeChecker(validate);
+  }
+
+  function createUnionTypeChecker(arrayOfTypeCheckers) {
+    if (!Array.isArray(arrayOfTypeCheckers)) {
+       true ? warning(false, 'Invalid argument supplied to oneOfType, expected an instance of array.') : undefined;
+      return emptyFunction.thatReturnsNull;
+    }
+
+    for (var i = 0; i < arrayOfTypeCheckers.length; i++) {
+      var checker = arrayOfTypeCheckers[i];
+      if (typeof checker !== 'function') {
+        warning(
+          false,
+          'Invalid argument supplied to oneOfType. Expected an array of check functions, but ' +
+          'received %s at index %s.',
+          getPostfixForTypeWarning(checker),
+          i
+        );
+        return emptyFunction.thatReturnsNull;
+      }
+    }
+
+    function validate(props, propName, componentName, location, propFullName) {
+      for (var i = 0; i < arrayOfTypeCheckers.length; i++) {
+        var checker = arrayOfTypeCheckers[i];
+        if (checker(props, propName, componentName, location, propFullName, ReactPropTypesSecret) == null) {
+          return null;
+        }
+      }
+
+      return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` supplied to ' + ('`' + componentName + '`.'));
+    }
+    return createChainableTypeChecker(validate);
+  }
+
+  function createNodeChecker() {
+    function validate(props, propName, componentName, location, propFullName) {
+      if (!isNode(props[propName])) {
+        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` supplied to ' + ('`' + componentName + '`, expected a ReactNode.'));
+      }
+      return null;
+    }
+    return createChainableTypeChecker(validate);
+  }
+
+  function createShapeTypeChecker(shapeTypes) {
+    function validate(props, propName, componentName, location, propFullName) {
+      var propValue = props[propName];
+      var propType = getPropType(propValue);
+      if (propType !== 'object') {
+        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of type `' + propType + '` ' + ('supplied to `' + componentName + '`, expected `object`.'));
+      }
+      for (var key in shapeTypes) {
+        var checker = shapeTypes[key];
+        if (!checker) {
+          continue;
+        }
+        var error = checker(propValue, key, componentName, location, propFullName + '.' + key, ReactPropTypesSecret);
+        if (error) {
+          return error;
+        }
+      }
+      return null;
+    }
+    return createChainableTypeChecker(validate);
+  }
+
+  function createStrictShapeTypeChecker(shapeTypes) {
+    function validate(props, propName, componentName, location, propFullName) {
+      var propValue = props[propName];
+      var propType = getPropType(propValue);
+      if (propType !== 'object') {
+        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of type `' + propType + '` ' + ('supplied to `' + componentName + '`, expected `object`.'));
+      }
+      // We need to check all keys in case some are required but missing from
+      // props.
+      var allKeys = assign({}, props[propName], shapeTypes);
+      for (var key in allKeys) {
+        var checker = shapeTypes[key];
+        if (!checker) {
+          return new PropTypeError(
+            'Invalid ' + location + ' `' + propFullName + '` key `' + key + '` supplied to `' + componentName + '`.' +
+            '\nBad object: ' + JSON.stringify(props[propName], null, '  ') +
+            '\nValid keys: ' +  JSON.stringify(Object.keys(shapeTypes), null, '  ')
+          );
+        }
+        var error = checker(propValue, key, componentName, location, propFullName + '.' + key, ReactPropTypesSecret);
+        if (error) {
+          return error;
+        }
+      }
+      return null;
+    }
+
+    return createChainableTypeChecker(validate);
+  }
+
+  function isNode(propValue) {
+    switch (typeof propValue) {
+      case 'number':
+      case 'string':
+      case 'undefined':
+        return true;
+      case 'boolean':
+        return !propValue;
+      case 'object':
+        if (Array.isArray(propValue)) {
+          return propValue.every(isNode);
+        }
+        if (propValue === null || isValidElement(propValue)) {
+          return true;
+        }
+
+        var iteratorFn = getIteratorFn(propValue);
+        if (iteratorFn) {
+          var iterator = iteratorFn.call(propValue);
+          var step;
+          if (iteratorFn !== propValue.entries) {
+            while (!(step = iterator.next()).done) {
+              if (!isNode(step.value)) {
+                return false;
+              }
+            }
+          } else {
+            // Iterator will provide entry [k,v] tuples rather than values.
+            while (!(step = iterator.next()).done) {
+              var entry = step.value;
+              if (entry) {
+                if (!isNode(entry[1])) {
+                  return false;
+                }
+              }
+            }
+          }
+        } else {
+          return false;
+        }
+
+        return true;
+      default:
+        return false;
+    }
+  }
+
+  function isSymbol(propType, propValue) {
+    // Native Symbol.
+    if (propType === 'symbol') {
+      return true;
+    }
+
+    // 19.4.3.5 Symbol.prototype[@@toStringTag] === 'Symbol'
+    if (propValue['@@toStringTag'] === 'Symbol') {
+      return true;
+    }
+
+    // Fallback for non-spec compliant Symbols which are polyfilled.
+    if (typeof Symbol === 'function' && propValue instanceof Symbol) {
+      return true;
+    }
+
+    return false;
+  }
+
+  // Equivalent of `typeof` but with special handling for array and regexp.
+  function getPropType(propValue) {
+    var propType = typeof propValue;
+    if (Array.isArray(propValue)) {
+      return 'array';
+    }
+    if (propValue instanceof RegExp) {
+      // Old webkits (at least until Android 4.0) return 'function' rather than
+      // 'object' for typeof a RegExp. We'll normalize this here so that /bla/
+      // passes PropTypes.object.
+      return 'object';
+    }
+    if (isSymbol(propType, propValue)) {
+      return 'symbol';
+    }
+    return propType;
+  }
+
+  // This handles more types than `getPropType`. Only used for error messages.
+  // See `createPrimitiveTypeChecker`.
+  function getPreciseType(propValue) {
+    if (typeof propValue === 'undefined' || propValue === null) {
+      return '' + propValue;
+    }
+    var propType = getPropType(propValue);
+    if (propType === 'object') {
+      if (propValue instanceof Date) {
+        return 'date';
+      } else if (propValue instanceof RegExp) {
+        return 'regexp';
+      }
+    }
+    return propType;
+  }
+
+  // Returns a string that is postfixed to a warning about an invalid type.
+  // For example, "undefined" or "of type array"
+  function getPostfixForTypeWarning(value) {
+    var type = getPreciseType(value);
+    switch (type) {
+      case 'array':
+      case 'object':
+        return 'an ' + type;
+      case 'boolean':
+      case 'date':
+      case 'regexp':
+        return 'a ' + type;
+      default:
+        return type;
+    }
+  }
+
+  // Returns class name of the object, if any.
+  function getClassName(propValue) {
+    if (!propValue.constructor || !propValue.constructor.name) {
+      return ANONYMOUS;
+    }
+    return propValue.constructor.name;
+  }
+
+  ReactPropTypes.checkPropTypes = checkPropTypes;
+  ReactPropTypes.PropTypes = ReactPropTypes;
+
+  return ReactPropTypes;
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/prop-types/index.js":
+/*!******************************************!*\
+  !*** ./node_modules/prop-types/index.js ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/**
+ * Copyright (c) 2013-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+if (true) {
+  var REACT_ELEMENT_TYPE = (typeof Symbol === 'function' &&
+    Symbol.for &&
+    Symbol.for('react.element')) ||
+    0xeac7;
+
+  var isValidElement = function(object) {
+    return typeof object === 'object' &&
+      object !== null &&
+      object.$$typeof === REACT_ELEMENT_TYPE;
+  };
+
+  // By explicitly using `prop-types` you are opting into new development behavior.
+  // http://fb.me/prop-types-in-prod
+  var throwOnDirectAccess = true;
+  module.exports = __webpack_require__(/*! ./factoryWithTypeCheckers */ "./node_modules/prop-types/factoryWithTypeCheckers.js")(isValidElement, throwOnDirectAccess);
+} else {}
 
 
 /***/ }),
@@ -29013,6 +29640,36 @@ if (false) {} else {
 
 /***/ }),
 
+/***/ "./node_modules/react-hot-loader/dist/react-hot-loader.production.min.js":
+/*!*******************************************************************************!*\
+  !*** ./node_modules/react-hot-loader/dist/react-hot-loader.production.min.js ***!
+  \*******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+function _interopDefault(t){return t&&"object"==typeof t&&"default"in t?t.default:t}Object.defineProperty(exports,"__esModule",{value:!0});var React=_interopDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js")),classCallCheck=function(t,e){if(!(t instanceof e))throw new TypeError("Cannot call a class as a function")},inherits=function(t,e){if("function"!=typeof e&&null!==e)throw new TypeError("Super expression must either be null or a function, not "+typeof e);t.prototype=Object.create(e&&e.prototype,{constructor:{value:t,enumerable:!1,writable:!0,configurable:!0}}),e&&(Object.setPrototypeOf?Object.setPrototypeOf(t,e):t.__proto__=e)},possibleConstructorReturn=function(t,e){if(!t)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return!e||"object"!=typeof e&&"function"!=typeof e?t:e},AppContainer=function(t){function e(){return classCallCheck(this,e),possibleConstructorReturn(this,t.apply(this,arguments))}return inherits(e,t),e.prototype.render=function(){return React.Children.only(this.props.children)},e}(React.Component),hot_prod=function(){return function(t){return t}},areComponentsEqual=function(t,e){return t===e},setConfig=function(){},cold=function(t){return t};exports.AppContainer=AppContainer,exports.hot=hot_prod,exports.areComponentsEqual=areComponentsEqual,exports.setConfig=setConfig,exports.cold=cold;
+
+
+/***/ }),
+
+/***/ "./node_modules/react-hot-loader/index.js":
+/*!************************************************!*\
+  !*** ./node_modules/react-hot-loader/index.js ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+if (true) {
+  module.exports = __webpack_require__(/*! ./dist/react-hot-loader.production.min.js */ "./node_modules/react-hot-loader/dist/react-hot-loader.production.min.js");
+} else {}
+
+
+/***/ }),
+
 /***/ "./node_modules/react/cjs/react.development.js":
 /*!*****************************************************!*\
   !*** ./node_modules/react/cjs/react.development.js ***!
@@ -31038,544 +31695,217 @@ module.exports = g;
 
 /***/ }),
 
-/***/ "./src/components/chip8_emulator/emulator.js":
-/*!***************************************************!*\
-  !*** ./src/components/chip8_emulator/emulator.js ***!
-  \***************************************************/
+/***/ "./node_modules/webpack/buildin/module.js":
+/*!***********************************!*\
+  !*** (webpack)/buildin/module.js ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = function(module) {
+	if (!module.webpackPolyfill) {
+		module.deprecate = function() {};
+		module.paths = [];
+		// module.parent = undefined by default
+		if (!module.children) module.children = [];
+		Object.defineProperty(module, "loaded", {
+			enumerable: true,
+			get: function() {
+				return module.l;
+			}
+		});
+		Object.defineProperty(module, "id", {
+			enumerable: true,
+			get: function() {
+				return module.i;
+			}
+		});
+		module.webpackPolyfill = 1;
+	}
+	return module;
+};
+
+
+/***/ }),
+
+/***/ "./src/app.js":
+/*!********************!*\
+  !*** ./src/app.js ***!
+  \********************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
+/* WEBPACK VAR INJECTION */(function(module) {
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _fontset = __webpack_require__(/*! ./fontset.js */ "./src/components/chip8_emulator/fontset.js");
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
-var _fontset2 = _interopRequireDefault(_fontset);
+var _react2 = _interopRequireDefault(_react);
+
+var _emulator = __webpack_require__(/*! ./components/emulator */ "./src/components/emulator/index.js");
+
+var _emulator2 = _interopRequireDefault(_emulator);
+
+var _rom_selector = __webpack_require__(/*! ./components/rom_selector */ "./src/components/rom_selector/index.js");
+
+var _rom_selector2 = _interopRequireDefault(_rom_selector);
+
+var _reactHotLoader = __webpack_require__(/*! react-hot-loader */ "./node_modules/react-hot-loader/index.js");
+
+var _styles = __webpack_require__(/*! ./styles.scss */ "./src/styles.scss");
+
+var _styles2 = _interopRequireDefault(_styles);
+
+var _keyboard_layout = __webpack_require__(/*! ./components/keyboard_layout */ "./src/components/keyboard_layout/index.js");
+
+var _keyboard_layout2 = _interopRequireDefault(_keyboard_layout);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+(function () {
+  var enterModule = __webpack_require__(/*! react-hot-loader */ "./node_modules/react-hot-loader/index.js").enterModule;
+
+  enterModule && enterModule(module);
+})();
+
+function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, arguments); return new Promise(function (resolve, reject) { function step(key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { return Promise.resolve(value).then(function (value) { step("next", value); }, function (err) { step("throw", err); }); } } return step("next"); }); }; }
+
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-// TODO: Convert arrays into typed arrays (Uint8Array);
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
-var Chip8Emulator = function () {
-  function Chip8Emulator(canvasEl) {
-    _classCallCheck(this, Chip8Emulator);
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-    this.emulateCycle.bind(this);
-    this.drawGraphics.bind(this);
-    this.onKeyDown.bind(this);
-    this.onKeyUp.bind(this);
+var production = false;
 
-    // 4K Memory in Chip 8!
-    var memory = new Uint8Array(4096).fill(0);
+var App = function (_React$Component) {
+  _inherits(App, _React$Component);
 
-    // Memory 0x000 -> 0x050 contains the fontset
-    for (var i = 0; i < _fontset2.default.length; i++) {
-      memory[i] = _fontset2.default[i];
-    }
+  function App(props) {
+    var _this2 = this;
 
-    // Chip 8 resolution
-    this.screenWidth = 64;
-    this.screenHeight = 32;
-    this.fps = 60;
-    this.then = 0;
-    this.canvasEl = canvasEl;
-    this.memory = memory;
-    this.gfx = new Array(this.screenWidth * this.screenHeight).fill(0);
+    _classCallCheck(this, App);
 
-    // Register/system vars
-    this.stack = new Uint16Array(16).fill(0);
-    this.key = new Uint8Array(16).fill(0);
-    this.V = new Uint8Array(16).fill(0);
-    this.pc = 0x200;
-    this.I = 0;
-    this.sp = 0;
-    this.opcode = 0;
-    this.delayTimer = 0;
-    this.soundTimer = 0;
-    this.programLoaded = false;
-    this.drawFlag = false;
+    var _this = _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).call(this, props));
+
+    _this.state = {
+      selectedRom: null
+    };
+
+    _this.onLoadRom = function () {
+      var _ref = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee(romName) {
+        var urlRoot, romUrl, response, arrayBuffer, romData;
+        return regeneratorRuntime.wrap(function _callee$(_context) {
+          while (1) {
+            switch (_context.prev = _context.next) {
+              case 0:
+                urlRoot = production ? "https://sleroux.github.com/chip8" : "http://localhost:8080";
+                romUrl = urlRoot + "/roms/" + romName;
+                _context.next = 4;
+                return fetch(romUrl);
+
+              case 4:
+                response = _context.sent;
+                _context.next = 7;
+                return response.arrayBuffer();
+
+              case 7:
+                arrayBuffer = _context.sent;
+                romData = new Uint8Array(arrayBuffer);
+
+
+                _this.setState(function (prevState) {
+                  return _extends({}, prevState, {
+                    selectedRom: romData
+                  });
+                });
+
+              case 10:
+              case 'end':
+                return _context.stop();
+            }
+          }
+        }, _callee, _this2);
+      }));
+
+      return function (_x) {
+        return _ref.apply(this, arguments);
+      };
+    }();
+
+    return _this;
   }
 
-  _createClass(Chip8Emulator, [{
-    key: 'loadProgram',
-    value: function loadProgram(program) {
-      for (var i = 0; i < program.length; i++) {
-        this.memory[0x200 + i] = program[i];
-      }
+  _createClass(App, [{
+    key: 'render',
+    value: function render() {
+      return _react2.default.createElement(
+        'div',
+        { className: 'app-container' },
+        _react2.default.createElement(
+          'h1',
+          { className: 'title' },
+          '..chip 8 emulator..'
+        ),
+        _react2.default.createElement(_emulator2.default, { selectedRom: this.state.selectedRom }),
+        _react2.default.createElement(_rom_selector2.default, { onLoadRom: this.onLoadRom }),
+        _react2.default.createElement(_keyboard_layout2.default, null)
+      );
     }
   }, {
-    key: 'start',
-    value: function start() {
-      this.loop();
-      this.renderLoop();
-      this.then = Date.now();
-    }
-  }, {
-    key: 'loop',
-    value: function loop() {
-      var _this = this;
-
-      setTimeout(function () {
-        _this.emulateCycle();
-        _this.loop();
-      }, 5);
-    }
-  }, {
-    key: 'renderLoop',
-    value: function renderLoop() {
-      window.requestAnimationFrame(this.renderLoop.bind(this));
-
-      var fpsInterval = 1000 / this.fps;
-      var now = Date.now();
-      var elapsed = now - this.then;
-
-      if (elapsed > fpsInterval) {
-        this.then = now - elapsed % fpsInterval;
-        if (this.drawFlag) {
-          this.drawGraphics();
-        }
-      }
-    }
-  }, {
-    key: 'emulateCycle',
-    value: function emulateCycle() {
-      // Fetch Opcode
-      var opcode = this.memory[this.pc] << 8 | this.memory[this.pc + 1];
-
-      // Decode Opcode (for documentation, see opcode.test.js)
-      switch (opcode & 0xF000) {
-        case 0x0000:
-          {
-            switch (opcode & 0x000F) {
-              case 0x0000:
-                {
-                  this.gfx.fill(0);
-                  this.drawFlag = true;
-                  this.pc += 2;
-                  break;
-                }
-              case 0x000E:
-                {
-                  this.sp -= 1;
-                  this.pc = this.stack[this.sp];
-                  this.pc += 2;
-                  break;
-                }
-            }
-            break;
-          }
-        case 0x1000:
-          {
-            this.pc = opcode & 0x0FFF;
-            break;
-          }
-        case 0x2000:
-          {
-            this.stack[this.sp] = this.pc;
-            this.sp++;
-            this.pc = opcode & 0x0FFF;
-            break;
-          }
-        case 0x3000:
-          {
-            var VXIndex = (opcode & 0x0F00) >> 8;
-            var NN = opcode & 0x00FF;
-
-            if (this.V[VXIndex] == NN) {
-              this.pc += 4;
-            } else {
-              this.pc += 2;
-            }
-            break;
-          }
-        case 0x4000:
-          {
-            var _VXIndex = (opcode & 0x0F00) >> 8;
-            var _NN = opcode & 0x00FF;
-
-            if (this.V[_VXIndex] != _NN) {
-              this.pc += 4;
-            } else {
-              this.pc += 2;
-            }
-            break;
-          }
-        case 0x5000:
-          {
-            var _VXIndex2 = (opcode & 0x0F00) >> 8;
-            var VYIndex = (opcode & 0x00F0) >> 4;
-
-            if (this.V[_VXIndex2] == this.V[VYIndex]) {
-              this.pc += 4;
-            } else {
-              this.pc += 2;
-            }
-            break;
-          }
-        case 0x6000:
-          {
-            var _VXIndex3 = (opcode & 0x0F00) >> 8;
-            var _NN2 = opcode & 0x00FF;
-            this.V[_VXIndex3] = _NN2;
-            this.pc += 2;
-            break;
-          }
-        case 0x7000:
-          {
-            var _VXIndex4 = (opcode & 0x0F00) >> 8;
-            var _NN3 = opcode & 0x00FF;
-            this.V[_VXIndex4] += _NN3;
-            this.pc += 2;
-            break;
-          }
-        case 0x8000:
-          {
-            var _VXIndex5 = (opcode & 0x0F00) >> 8;
-            var _VYIndex = (opcode & 0x00F0) >> 4;
-
-            switch (opcode & 0x000F) {
-              case 0x0000:
-                {
-                  this.V[_VXIndex5] = this.V[_VYIndex];
-                  break;
-                }
-              case 0x0001:
-                {
-                  this.V[_VXIndex5] |= this.V[_VYIndex];
-                  break;
-                }
-              case 0x0002:
-                {
-                  this.V[_VXIndex5] &= this.V[_VYIndex];
-                  break;
-                }
-              case 0x0003:
-                {
-                  this.V[_VXIndex5] ^= this.V[_VYIndex];
-                  break;
-                }
-              case 0x0004:
-                {
-                  if (this.V[_VYIndex] > 0xFF - this.V[_VXIndex5]) {
-                    this.V[0xF] = 1;
-                  } else {
-                    this.V[0xF] = 0;
-                  }
-                  this.V[_VXIndex5] += this.V[_VYIndex];
-                  break;
-                }
-              case 0x0005:
-                {
-                  if (this.V[_VYIndex] > this.V[_VXIndex5]) {
-                    this.V[0xF] = 0;
-                  } else {
-                    this.V[0xF] = 1;
-                  }
-                  this.V[_VXIndex5] -= this.V[_VYIndex];
-                  break;
-                }
-              case 0x0006:
-                {
-                  this.V[0xF] = this.V[_VXIndex5] & 0x1;
-                  this.V[_VXIndex5] >>= 1;
-                  break;
-                }
-              case 0x0007:
-                {
-                  if (this.V[_VXIndex5] > this.V[_VYIndex]) {
-                    this.V[0xF] = 0;
-                  } else {
-                    this.V[0xF] = 1;
-                  }
-                  this.V[_VXIndex5] = this.V[_VYIndex] - this.V[_VXIndex5];
-                  break;
-                }
-              case 0x000E:
-                {
-                  this.V[0xF] = this.V[_VXIndex5] >> 7;
-                  this.V[_VXIndex5] <<= 1;
-                  break;
-                }
-            }
-
-            this.pc += 2;
-            break;
-          }
-        case 0x9000:
-          {
-            var _VXIndex6 = (opcode & 0x0F00) >> 8;
-            var _VYIndex2 = (opcode & 0x00F0) >> 4;
-            if (this.V[_VXIndex6] != this.V[_VYIndex2]) {
-              this.pc += 2;
-            }
-            break;
-          }
-        case 0xA000:
-          {
-            this.I = opcode & 0x0FFF;
-            this.pc += 2;
-            break;
-          }
-        case 0xB000:
-          {
-            var addr = opcode & 0x0FFF;
-            this.pc = addr + this.V[0];
-            break;
-          }
-        case 0xC000:
-          {
-            var _VXIndex7 = (opcode & 0x0F00) >> 8;
-            var _NN4 = opcode & 0x00FF;
-            this.V[_VXIndex7] = _NN4 & Math.random() * 0xFF;
-            this.pc += 2;
-            break;
-          }
-        case 0xD000:
-          {
-            var width = 8;
-            var x = this.V[(opcode & 0x0F00) >> 8];
-            var y = this.V[(opcode & 0x00F0) >> 4];
-            var height = opcode & 0x000F;
-            this.V[0xF] = 0;
-
-            for (var yline = 0; yline < height; yline++) {
-              var pixel = this.memory[this.I + yline];
-              for (var xline = 0; xline < width; xline++) {
-                if ((pixel & 0x80 >> xline) != 0) {
-                  if (this.gfx[x + xline + (y + yline) * this.screenWidth] == 1) {
-                    this.V[0xF] = 1;
-                  }
-                  this.gfx[x + xline + (y + yline) * this.screenWidth] ^= 1;
-                }
-              }
-            }
-
-            this.drawFlag = true;
-            this.pc += 2;
-            break;
-          }
-        case 0xE000:
-          {
-            switch (opcode & 0x00FF) {
-              case 0x009E:
-                {
-                  if (this.key[this.V[(opcode & 0x0F00) >> 8]] != 0) this.pc += 4;else this.pc += 2;
-                  break;
-                }
-              case 0x00A1:
-                {
-                  if (this.key[this.V[(opcode & 0x0F00) >> 8]] == 0) this.pc += 4;else this.pc += 2;
-                  break;
-                }
-            }
-            break;
-          }
-        case 0xF000:
-          {
-            switch (opcode & 0x00FF) {
-              case 0x0007:
-                {
-                  this.V[(opcode & 0x0F00) >> 8] = this.delayTimer;
-                  this.pc += 2;
-                  break;
-                }
-              case 0x000A:
-                {
-                  var keyPress = false;
-                  for (var k = 0; k < this.key.length; k++) {
-                    if (this.key[k] != 0) {
-                      this.V[(opcode & 0x0F00) >> 8] = k;
-                      keyPress = true;
-                      break;
-                    }
-                  }
-
-                  if (!keyPress) {
-                    return;
-                  }
-
-                  this.pc += 2;
-                  break;
-                }
-              case 0x0015:
-                {
-                  this.delayTimer = this.V[(opcode & 0x0F00) >> 8];
-                  this.pc += 2;
-                  break;
-                }
-              case 0x0018:
-                {
-                  this.soundTimer = this.V[(opcode & 0x0F00) >> 8];
-                  this.pc += 2;
-                  break;
-                }
-              case 0x001E:
-                {
-                  var _VXIndex8 = (opcode & 0x0F00) >> 8;
-                  if (this.I + this.V[_VXIndex8] > 0xFFF) {
-                    this.V[0xF] = 1;
-                  } else {
-                    this.V[0xF] = 0;
-                  }
-
-                  this.I += this.V[_VXIndex8];
-                  this.I %= 0x1000;
-                  this.pc += 2;
-                  break;
-                }
-              case 0x0029:
-                {
-                  var sprite = this.V[(opcode & 0x0F00) >> 8];
-                  // Font set starts at 0x0 and each character takes up 5 bytes.
-                  this.I = sprite * 0x5;
-                  this.pc += 2;
-                  break;
-                }
-              case 0x0033:
-                {
-                  this.memory[this.I] = Math.floor(this.V[(opcode & 0x0F00) >> 8] / 100);
-                  this.memory[this.I + 1] = Math.floor(this.V[(opcode & 0x0F00) >> 8] / 10) % 10;
-                  this.memory[this.I + 2] = this.V[(opcode & 0x0F00) >> 8] % 100 % 10;
-                  this.pc += 2;
-                  break;
-                }
-              case 0x0055:
-                {
-                  var end = (opcode & 0x0F00) >> 8;
-                  for (var vi = 0; vi <= end; vi++) {
-                    this.memory[this.I] = this.V[vi];
-                    this.I++;
-                  }
-                  this.pc += 2;
-                  break;
-                }
-              case 0x0065:
-                {
-                  var _end = (opcode & 0x0F00) >> 8;
-                  for (var vi = 0; vi <= _end; vi++) {
-                    this.V[vi] = this.memory[this.I];
-                    this.I++;
-                  }
-                  this.pc += 2;
-                  break;
-                }
-            }
-            break;
-          }
-      }
-
-      if (this.delayTimer > 0) {
-        this.delayTimer--;
-      }
-
-      if (this.soundTimer > 0) {
-        if (this.soundTimer == 1) {
-          console.log("BEEP");
-        }
-        this.soundTimer--;
-      }
-    }
-  }, {
-    key: 'drawGraphics',
-    value: function drawGraphics() {
-      var ctx = this.canvasEl.getContext('2d');
-      var scale = 10;
-      var imageData = ctx.getImageData(0, 0, this.screenWidth * scale, this.screenHeight * scale);
-      var data = imageData.data;
-      var buf = new ArrayBuffer(imageData.data.length);
-      var buf8 = new Uint8ClampedArray(buf);
-      var data = new Uint32Array(buf);
-
-      for (var y = 0; y < this.screenHeight; y++) {
-        for (var x = 0; x < this.screenWidth; x++) {
-          var value = this.gfx[x + y * this.screenWidth];
-          var px = x * scale;
-          var py = y * scale;
-          var scaledWidth = this.screenWidth * scale;
-
-          for (var iy = 0; iy < scale; iy++) {
-            for (var ix = 0; ix < scale; ix++) {
-              var dataIndex = px + py * scaledWidth;
-              dataIndex += ix;
-              dataIndex += iy * scaledWidth;
-              data[dataIndex] = value == 1 ? 0xFFFFFFFF : 0xFF000000;
-            }
-          }
-        }
-      }
-
-      imageData.data.set(buf8);
-      ctx.putImageData(imageData, 0, 0);
-      this.drawFlag = false;
-    }
-  }, {
-    key: 'onKeyUp',
-    value: function onKeyUp(k) {
-      if (k == "1") this.key[0x1] = 1;else if (k == "2") this.key[0x2] = 1;else if (k == "3") this.key[0x3] = 1;else if (k == "4") this.key[0xC] = 1;else if (k == "q") this.key[0x4] = 1;else if (k == "w") this.key[0x5] = 1;else if (k == "e") this.key[0x6] = 1;else if (k == "r") this.key[0xD] = 1;else if (k == "a") this.key[0x7] = 1;else if (k == "s") this.key[0x8] = 1;else if (k == "d") this.key[0x9] = 1;else if (k == "f") this.key[0xE] = 1;else if (k == "z") this.key[0xA] = 1;else if (k == "x") this.key[0x0] = 1;else if (k == "c") this.key[0xB] = 1;else if (k == "v") this.key[0xF] = 1;
-    }
-  }, {
-    key: 'onKeyDown',
-    value: function onKeyDown(k) {
-      if (k == "1") this.key[0x1] = 0;else if (k == "2") this.key[0x2] = 0;else if (k == "3") this.key[0x3] = 0;else if (k == "4") this.key[0xC] = 0;else if (k == "q") this.key[0x4] = 0;else if (k == "w") this.key[0x5] = 0;else if (k == "e") this.key[0x6] = 0;else if (k == "r") this.key[0xD] = 0;else if (k == "a") this.key[0x7] = 0;else if (k == "s") this.key[0x8] = 0;else if (k == "d") this.key[0x9] = 0;else if (k == "f") this.key[0xE] = 0;else if (k == "z") this.key[0xA] = 0;else if (k == "x") this.key[0x0] = 0;else if (k == "c") this.key[0xB] = 0;else if (k == "v") this.key[0xF] = 0;
+    key: '__reactstandin__regenerateByEval',
+    // @ts-ignore
+    value: function __reactstandin__regenerateByEval(key, code) {
+      // @ts-ignore
+      this[key] = eval(code);
     }
   }]);
 
-  return Chip8Emulator;
-}();
+  return App;
+}(_react2.default.Component);
 
-exports.default = Chip8Emulator;
+var _default = (0, _reactHotLoader.hot)(module)(App);
+
+exports.default = _default;
+;
+
+(function () {
+  var reactHotLoader = __webpack_require__(/*! react-hot-loader */ "./node_modules/react-hot-loader/index.js").default;
+
+  var leaveModule = __webpack_require__(/*! react-hot-loader */ "./node_modules/react-hot-loader/index.js").leaveModule;
+
+  if (!reactHotLoader) {
+    return;
+  }
+
+  reactHotLoader.register(production, 'production', '/Users/sleroux/development/chip8-js/src/app.js');
+  reactHotLoader.register(App, 'App', '/Users/sleroux/development/chip8-js/src/app.js');
+  reactHotLoader.register(_default, 'default', '/Users/sleroux/development/chip8-js/src/app.js');
+  leaveModule(module);
+})();
+
+;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node_modules/webpack/buildin/module.js */ "./node_modules/webpack/buildin/module.js")(module)))
 
 /***/ }),
 
-/***/ "./src/components/chip8_emulator/fontset.js":
-/*!**************************************************!*\
-  !*** ./src/components/chip8_emulator/fontset.js ***!
-  \**************************************************/
+/***/ "./src/components/emulator/index.js":
+/*!******************************************!*\
+  !*** ./src/components/emulator/index.js ***!
+  \******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = [0xF0, 0x90, 0x90, 0x90, 0xF0, // 0
-0x20, 0x60, 0x20, 0x20, 0x70, // 1
-0xF0, 0x10, 0xF0, 0x80, 0xF0, // 2
-0xF0, 0x10, 0xF0, 0x10, 0xF0, // 3
-0x90, 0x90, 0xF0, 0x10, 0x10, // 4
-0xF0, 0x80, 0xF0, 0x10, 0xF0, // 5
-0xF0, 0x80, 0xF0, 0x90, 0xF0, // 6
-0xF0, 0x10, 0x20, 0x40, 0x40, // 7
-0xF0, 0x90, 0xF0, 0x90, 0xF0, // 8
-0xF0, 0x90, 0xF0, 0x10, 0xF0, // 9
-0xF0, 0x90, 0xF0, 0x90, 0x90, // A
-0xE0, 0x90, 0xE0, 0x90, 0xE0, // B
-0xF0, 0x80, 0x80, 0x80, 0xF0, // C
-0xE0, 0x90, 0x90, 0x90, 0xE0, // D
-0xF0, 0x80, 0xF0, 0x80, 0xF0, // E
-0xF0, 0x80, 0xF0, 0x80, 0x80];
-
-/***/ }),
-
-/***/ "./src/components/chip8_emulator/index.js":
-/*!************************************************!*\
-  !*** ./src/components/chip8_emulator/index.js ***!
-  \************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
+/* WEBPACK VAR INJECTION */(function(module) {
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -31587,21 +31917,21 @@ var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var _react2 = _interopRequireDefault(_react);
 
-var _fontset = __webpack_require__(/*! ./fontset.js */ "./src/components/chip8_emulator/fontset.js");
+var _chip = __webpack_require__(/*! ../../lib/chip8 */ "./src/lib/chip8.js");
 
-var _fontset2 = _interopRequireDefault(_fontset);
+var _chip2 = _interopRequireDefault(_chip);
 
-var _styles = __webpack_require__(/*! ./styles/styles.scss */ "./src/components/chip8_emulator/styles/styles.scss");
+var _styles = __webpack_require__(/*! ./styles.scss */ "./src/components/emulator/styles.scss");
 
 var _styles2 = _interopRequireDefault(_styles);
 
-var _emulator = __webpack_require__(/*! ./emulator.js */ "./src/components/chip8_emulator/emulator.js");
-
-var _emulator2 = _interopRequireDefault(_emulator);
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, arguments); return new Promise(function (resolve, reject) { function step(key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { return Promise.resolve(value).then(function (value) { step("next", value); }, function (err) { step("throw", err); }); } } return step("next"); }); }; }
+(function () {
+  var enterModule = __webpack_require__(/*! react-hot-loader */ "./node_modules/react-hot-loader/index.js").enterModule;
+
+  enterModule && enterModule(module);
+})();
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -31613,28 +31943,42 @@ var Emulator = function (_React$Component) {
   _inherits(Emulator, _React$Component);
 
   function Emulator() {
+    var _ref;
+
+    var _temp, _this, _ret;
+
     _classCallCheck(this, Emulator);
 
-    var _this = _possibleConstructorReturn(this, (Emulator.__proto__ || Object.getPrototypeOf(Emulator)).call(this));
+    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
 
-    _this.fetchRom.bind(_this);
-
-    _this.state = {
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Emulator.__proto__ || Object.getPrototypeOf(Emulator)).call.apply(_ref, [this].concat(args))), _this), _this.state = {
       emulator: null
-    };
-    return _this;
+    }, _this.componentWillReceiveProps = function (nextProps) {
+      _this.loadRom(nextProps.selectedRom);
+    }, _this.onKeyDown = function (e) {
+      _this.state.emulator.onKeyDown(e.key);
+    }, _this.onKeyUp = function (e) {
+      _this.state.emulator.onKeyUp(e.key);
+    }, _this.loadRom = function (romData) {
+      _this.state.emulator.stop();
+      _this.state.emulator.reset();
+      _this.state.emulator.loadProgram(romData);
+      _this.state.emulator.start();
+    }, _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(Emulator, [{
     key: 'componentWillMount',
     value: function componentWillMount() {
-      document.addEventListener('keydown', this.onKeyDown.bind(this));
-      document.addEventListener('keyup', this.onKeyUp.bind(this));
+      document.addEventListener('keydown', this.onKeyDown);
+      document.addEventListener('keyup', this.onKeyUp);
     }
   }, {
     key: 'componentDidMount',
     value: function componentDidMount() {
-      var emulator = new _emulator2.default(this._canvasEl);
+      var emulator = new _chip2.default(this._canvasEl);
 
       this.setState(function (prevState) {
         return {
@@ -31649,109 +31993,58 @@ var Emulator = function (_React$Component) {
       document.removeEventListener('keyup', this.onKeyDown);
     }
   }, {
-    key: 'onKeyDown',
-    value: function onKeyDown(event) {
-      this.state.emulator.onKeyDown(event.key);
-    }
-  }, {
-    key: 'onKeyUp',
-    value: function onKeyUp(event) {
-      this.state.emulator.onKeyUp(event.key);
-    }
-  }, {
-    key: 'fetchRom',
-    value: function () {
-      var _ref = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee() {
-        var response, arrayBuffer, binaryData;
-        return regeneratorRuntime.wrap(function _callee$(_context) {
-          while (1) {
-            switch (_context.prev = _context.next) {
-              case 0:
-                _context.next = 2;
-                return fetch("http://localhost:8080/roms/BRIX");
-
-              case 2:
-                response = _context.sent;
-                _context.next = 5;
-                return response.arrayBuffer();
-
-              case 5:
-                arrayBuffer = _context.sent;
-                binaryData = new Uint8Array(arrayBuffer);
-                return _context.abrupt('return', binaryData);
-
-              case 8:
-              case 'end':
-                return _context.stop();
-            }
-          }
-        }, _callee, this);
-      }));
-
-      function fetchRom() {
-        return _ref.apply(this, arguments);
-      }
-
-      return fetchRom;
-    }()
-  }, {
     key: 'render',
     value: function render() {
       var _this2 = this;
 
-      return _react2.default.createElement(
-        'div',
-        null,
-        _react2.default.createElement('canvas', { id: 'emulator_view', width: '640px', height: '320px', ref: function ref(c) {
-            return _this2._canvasEl = c;
-          } }),
-        _react2.default.createElement(
-          'button',
-          {
-            onClick: _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee2() {
-              var program;
-              return regeneratorRuntime.wrap(function _callee2$(_context2) {
-                while (1) {
-                  switch (_context2.prev = _context2.next) {
-                    case 0:
-                      _context2.next = 2;
-                      return _this2.fetchRom();
-
-                    case 2:
-                      program = _context2.sent;
-
-                      _this2.state.emulator.loadProgram(program);
-                      _this2.state.emulator.start();
-
-                    case 5:
-                    case 'end':
-                      return _context2.stop();
-                  }
-                }
-              }, _callee2, _this2);
-            })) },
-          'Load Maze'
-        )
-      );
+      return _react2.default.createElement('canvas', { className: 'emulator_view', width: '640px', height: '320px', ref: function ref(c) {
+          return _this2._canvasEl = c;
+        } });
+    }
+  }, {
+    key: '__reactstandin__regenerateByEval',
+    // @ts-ignore
+    value: function __reactstandin__regenerateByEval(key, code) {
+      // @ts-ignore
+      this[key] = eval(code);
     }
   }]);
 
   return Emulator;
 }(_react2.default.Component);
 
-exports.default = Emulator;
+var _default = Emulator;
+exports.default = _default;
+;
+
+(function () {
+  var reactHotLoader = __webpack_require__(/*! react-hot-loader */ "./node_modules/react-hot-loader/index.js").default;
+
+  var leaveModule = __webpack_require__(/*! react-hot-loader */ "./node_modules/react-hot-loader/index.js").leaveModule;
+
+  if (!reactHotLoader) {
+    return;
+  }
+
+  reactHotLoader.register(Emulator, 'Emulator', '/Users/sleroux/development/chip8-js/src/components/emulator/index.js');
+  reactHotLoader.register(_default, 'default', '/Users/sleroux/development/chip8-js/src/components/emulator/index.js');
+  leaveModule(module);
+})();
+
+;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../node_modules/webpack/buildin/module.js */ "./node_modules/webpack/buildin/module.js")(module)))
 
 /***/ }),
 
-/***/ "./src/components/chip8_emulator/styles/styles.scss":
-/*!**********************************************************!*\
-  !*** ./src/components/chip8_emulator/styles/styles.scss ***!
-  \**********************************************************/
+/***/ "./src/components/emulator/styles.scss":
+/*!*********************************************!*\
+  !*** ./src/components/emulator/styles.scss ***!
+  \*********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../../node_modules/css-loader??ref--6-1!../../../../node_modules/sass-loader/lib/loader.js??ref--6-2!./styles.scss */ "./node_modules/css-loader/index.js??ref--6-1!./node_modules/sass-loader/lib/loader.js??ref--6-2!./src/components/chip8_emulator/styles/styles.scss");
+var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--6-1!../../../node_modules/sass-loader/lib/loader.js??ref--6-2!./styles.scss */ "./node_modules/css-loader/index.js??ref--6-1!./node_modules/sass-loader/lib/loader.js??ref--6-2!./src/components/emulator/styles.scss");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -31765,7 +32058,385 @@ var options = {"hmr":true}
 options.transform = transform
 options.insertInto = undefined;
 
-var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./src/components/keyboard_layout/index.js":
+/*!*************************************************!*\
+  !*** ./src/components/keyboard_layout/index.js ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(module) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _styles = __webpack_require__(/*! ./styles.scss */ "./src/components/keyboard_layout/styles.scss");
+
+var _styles2 = _interopRequireDefault(_styles);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+(function () {
+  var enterModule = __webpack_require__(/*! react-hot-loader */ "./node_modules/react-hot-loader/index.js").enterModule;
+
+  enterModule && enterModule(module);
+})();
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var hexToKeyMap = {
+  "1": "1",
+  "2": "2",
+  "3": "3",
+  "4": "Q",
+  "5": "W",
+  "6": "E",
+  "D": "R",
+  "7": "A",
+  "8": "S",
+  "9": "D",
+  "E": "F",
+  "A": "Z",
+  "0": "X",
+  "B": "C",
+  "F": "V"
+};
+
+var KeyboardLayout = function (_React$Component) {
+  _inherits(KeyboardLayout, _React$Component);
+
+  function KeyboardLayout() {
+    _classCallCheck(this, KeyboardLayout);
+
+    return _possibleConstructorReturn(this, (KeyboardLayout.__proto__ || Object.getPrototypeOf(KeyboardLayout)).apply(this, arguments));
+  }
+
+  _createClass(KeyboardLayout, [{
+    key: 'render',
+    value: function render() {
+      return _react2.default.createElement(
+        'div',
+        { className: 'key_layout_container' },
+        _react2.default.createElement(
+          'h2',
+          { className: 'title' },
+          'keybindings'
+        ),
+        _react2.default.createElement(
+          'table',
+          null,
+          _react2.default.createElement(
+            'tbody',
+            null,
+            _react2.default.createElement(
+              'tr',
+              null,
+              _react2.default.createElement(
+                'td',
+                null,
+                _react2.default.createElement(
+                  'p',
+                  null,
+                  'keypad'
+                )
+              ),
+              Object.keys(hexToKeyMap).map(function (k) {
+                return _react2.default.createElement(
+                  'td',
+                  null,
+                  _react2.default.createElement(
+                    'p',
+                    null,
+                    k
+                  )
+                );
+              })
+            ),
+            _react2.default.createElement(
+              'tr',
+              null,
+              _react2.default.createElement(
+                'td',
+                null,
+                _react2.default.createElement(
+                  'p',
+                  null,
+                  'keyboard'
+                )
+              ),
+              Object.keys(hexToKeyMap).map(function (k) {
+                return _react2.default.createElement(
+                  'td',
+                  null,
+                  _react2.default.createElement(
+                    'p',
+                    null,
+                    hexToKeyMap[k]
+                  )
+                );
+              })
+            )
+          )
+        )
+      );
+    }
+  }, {
+    key: '__reactstandin__regenerateByEval',
+    // @ts-ignore
+    value: function __reactstandin__regenerateByEval(key, code) {
+      // @ts-ignore
+      this[key] = eval(code);
+    }
+  }]);
+
+  return KeyboardLayout;
+}(_react2.default.Component);
+
+var _default = KeyboardLayout;
+exports.default = _default;
+;
+
+(function () {
+  var reactHotLoader = __webpack_require__(/*! react-hot-loader */ "./node_modules/react-hot-loader/index.js").default;
+
+  var leaveModule = __webpack_require__(/*! react-hot-loader */ "./node_modules/react-hot-loader/index.js").leaveModule;
+
+  if (!reactHotLoader) {
+    return;
+  }
+
+  reactHotLoader.register(hexToKeyMap, 'hexToKeyMap', '/Users/sleroux/development/chip8-js/src/components/keyboard_layout/index.js');
+  reactHotLoader.register(KeyboardLayout, 'KeyboardLayout', '/Users/sleroux/development/chip8-js/src/components/keyboard_layout/index.js');
+  reactHotLoader.register(_default, 'default', '/Users/sleroux/development/chip8-js/src/components/keyboard_layout/index.js');
+  leaveModule(module);
+})();
+
+;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../node_modules/webpack/buildin/module.js */ "./node_modules/webpack/buildin/module.js")(module)))
+
+/***/ }),
+
+/***/ "./src/components/keyboard_layout/styles.scss":
+/*!****************************************************!*\
+  !*** ./src/components/keyboard_layout/styles.scss ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--6-1!../../../node_modules/sass-loader/lib/loader.js??ref--6-2!./styles.scss */ "./node_modules/css-loader/index.js??ref--6-1!./node_modules/sass-loader/lib/loader.js??ref--6-2!./src/components/keyboard_layout/styles.scss");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./src/components/rom_selector/index.js":
+/*!**********************************************!*\
+  !*** ./src/components/rom_selector/index.js ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(module) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+var _styles = __webpack_require__(/*! ./styles.scss */ "./src/components/rom_selector/styles.scss");
+
+var _styles2 = _interopRequireDefault(_styles);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+(function () {
+  var enterModule = __webpack_require__(/*! react-hot-loader */ "./node_modules/react-hot-loader/index.js").enterModule;
+
+  enterModule && enterModule(module);
+})();
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var availableRoms = ["15PUZZLE", "BLINKY", "BRIX", "BLITZ", "CONNECT4", "GUESS", "HIDDEN", "INVADERS", "KALEID", "MAZE", "MERLIN", "MISSLE", "PONG", "PONG2", "PUZZLE", "SYZYGY", "TANK", "TETRIS", "TICTAC", "UFO", "VBRIX", "VERS", "WIPEOFF"];
+
+var ROMSelector = function (_React$Component) {
+  _inherits(ROMSelector, _React$Component);
+
+  function ROMSelector() {
+    var _ref;
+
+    var _temp, _this, _ret;
+
+    _classCallCheck(this, ROMSelector);
+
+    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = ROMSelector.__proto__ || Object.getPrototypeOf(ROMSelector)).call.apply(_ref, [this].concat(args))), _this), _this.state = {
+      selectedRom: availableRoms[0]
+    }, _this.onChangeSelection = function (e) {
+      var romName = e.target.value;
+      _this.setState(function (prevState) {
+        return _extends({}, prevState, {
+          selectedRom: romName
+        });
+      });
+    }, _temp), _possibleConstructorReturn(_this, _ret);
+  }
+
+  _createClass(ROMSelector, [{
+    key: 'render',
+    value: function render() {
+      var _this2 = this;
+
+      return _react2.default.createElement(
+        'div',
+        { className: 'rom_selector' },
+        _react2.default.createElement(
+          'p',
+          { className: 'select_a_rom' },
+          'select a rom'
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'rom_option_button' },
+          _react2.default.createElement(
+            'select',
+            { className: 'rom_selection', value: this.state.selectedRom, onChange: this.onChangeSelection },
+            availableRoms.map(function (rom) {
+              return _react2.default.createElement(
+                'option',
+                { key: rom, value: rom },
+                rom
+              );
+            })
+          ),
+          _react2.default.createElement(
+            'button',
+            { className: 'rom_load_button', onClick: function onClick() {
+                _this2.props.onLoadRom(_this2.state.selectedRom);
+              } },
+            'load'
+          )
+        )
+      );
+    }
+  }, {
+    key: '__reactstandin__regenerateByEval',
+    // @ts-ignore
+    value: function __reactstandin__regenerateByEval(key, code) {
+      // @ts-ignore
+      this[key] = eval(code);
+    }
+  }]);
+
+  return ROMSelector;
+}(_react2.default.Component);
+
+ROMSelector.propTypes = {
+  onLoadRom: _propTypes2.default.func.isRequired
+};
+var _default = ROMSelector;
+exports.default = _default;
+;
+
+(function () {
+  var reactHotLoader = __webpack_require__(/*! react-hot-loader */ "./node_modules/react-hot-loader/index.js").default;
+
+  var leaveModule = __webpack_require__(/*! react-hot-loader */ "./node_modules/react-hot-loader/index.js").leaveModule;
+
+  if (!reactHotLoader) {
+    return;
+  }
+
+  reactHotLoader.register(availableRoms, 'availableRoms', '/Users/sleroux/development/chip8-js/src/components/rom_selector/index.js');
+  reactHotLoader.register(ROMSelector, 'ROMSelector', '/Users/sleroux/development/chip8-js/src/components/rom_selector/index.js');
+  reactHotLoader.register(_default, 'default', '/Users/sleroux/development/chip8-js/src/components/rom_selector/index.js');
+  leaveModule(module);
+})();
+
+;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../node_modules/webpack/buildin/module.js */ "./node_modules/webpack/buildin/module.js")(module)))
+
+/***/ }),
+
+/***/ "./src/components/rom_selector/styles.scss":
+/*!*************************************************!*\
+  !*** ./src/components/rom_selector/styles.scss ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--6-1!../../../node_modules/sass-loader/lib/loader.js??ref--6-2!./styles.scss */ "./node_modules/css-loader/index.js??ref--6-1!./node_modules/sass-loader/lib/loader.js??ref--6-2!./src/components/rom_selector/styles.scss");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
 
 if(content.locals) module.exports = content.locals;
 
@@ -31783,68 +32454,621 @@ if(false) {}
 "use strict";
 
 
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
 var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var _react2 = _interopRequireDefault(_react);
+
+var _app = __webpack_require__(/*! ./app.js */ "./src/app.js");
+
+var _app2 = _interopRequireDefault(_app);
 
 var _reactDom = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _chip8_emulator = __webpack_require__(/*! ./components/chip8_emulator */ "./src/components/chip8_emulator/index.js");
-
-var _chip8_emulator2 = _interopRequireDefault(_chip8_emulator);
-
-var _styles = __webpack_require__(/*! ./styles/styles.scss */ "./src/styles/styles.scss");
-
-var _styles2 = _interopRequireDefault(_styles);
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var App = function (_React$Component) {
-  _inherits(App, _React$Component);
-
-  function App() {
-    _classCallCheck(this, App);
-
-    return _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).apply(this, arguments));
-  }
-
-  _createClass(App, [{
-    key: 'render',
-    value: function render() {
-      return _react2.default.createElement(
-        'div',
-        { className: 'emulator-container' },
-        _react2.default.createElement(_chip8_emulator2.default, null)
-      );
-    }
-  }]);
-
-  return App;
-}(_react2.default.Component);
-
-_reactDom2.default.render(_react2.default.createElement(App, null), document.querySelector('#root'));
+_reactDom2.default.render(_react2.default.createElement(_app2.default, null), document.querySelector('#root'));
 
 /***/ }),
 
-/***/ "./src/styles/styles.scss":
-/*!********************************!*\
-  !*** ./src/styles/styles.scss ***!
-  \********************************/
+/***/ "./src/lib/chip8.js":
+/*!**************************!*\
+  !*** ./src/lib/chip8.js ***!
+  \**************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(module) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _fontset = __webpack_require__(/*! ./fontset.js */ "./src/lib/fontset.js");
+
+var _fontset2 = _interopRequireDefault(_fontset);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+(function () {
+  var enterModule = __webpack_require__(/*! react-hot-loader */ "./node_modules/react-hot-loader/index.js").enterModule;
+
+  enterModule && enterModule(module);
+})();
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+var screenWidth = 64;
+var screenHeight = 32;
+
+var Chip8Emulator = function () {
+  function Chip8Emulator(canvasEl) {
+    var _this = this;
+
+    _classCallCheck(this, Chip8Emulator);
+
+    this.reset = function () {
+      // 4K Memory in Chip 8!
+      var memory = new Uint8Array(4096).fill(0);
+
+      // Memory 0x000 -> 0x050 contains the fontset
+      for (var i = 0; i < _fontset2.default.length; i++) {
+        memory[i] = _fontset2.default[i];
+      }
+
+      _this.memory = memory;
+      _this.gfx = new Array(6 * 32).fill(0);
+      _this.stack = new Uint16Array(16).fill(0);
+      _this.key = new Uint8Array(16).fill(0);
+      _this.V = new Uint8Array(16).fill(0);
+      _this.pc = 0x200;
+      _this.I = 0;
+      _this.sp = 0;
+      _this.delayTimer = 0;
+      _this.soundTimer = 0;
+      _this.drawFlag = false;
+    };
+
+    this.loadProgram = function (program) {
+      for (var i = 0; i < program.length; i++) {
+        _this.memory[0x200 + i] = program[i];
+      }
+    };
+
+    this.executionLoop = function () {
+      _this.executionLoopInterval = setInterval(function () {
+        for (var cyclesPer = 0; cyclesPer < 2; cyclesPer++) {
+          _this.emulateCycle();
+        }
+      }, 5);
+    };
+
+    this.renderLoop = function () {
+      _this.renderLoopId = window.requestAnimationFrame(_this.renderLoop.bind(_this));
+
+      var fpsInterval = 1000 / _this.fps;
+      var now = Date.now();
+      var elapsed = now - _this.then;
+
+      if (elapsed > fpsInterval) {
+        _this.then = now - elapsed % fpsInterval;
+        if (_this.drawFlag) {
+          _this.drawGraphics();
+        }
+      }
+    };
+
+    this.emulateCycle = function () {
+      // Fetch Opcode
+      var opcode = _this.memory[_this.pc] << 8 | _this.memory[_this.pc + 1];
+
+      // Decode Opcode (for documentation, see opcode.test.js)
+      switch (opcode & 0xF000) {
+        case 0x0000:
+          {
+            switch (opcode & 0x000F) {
+              case 0x0000:
+                {
+                  _this.gfx.fill(0);
+                  _this.drawFlag = true;
+                  _this.pc += 2;
+                  break;
+                }
+              case 0x000E:
+                {
+                  _this.sp -= 1;
+                  _this.pc = _this.stack[_this.sp];
+                  _this.pc += 2;
+                  break;
+                }
+            }
+            break;
+          }
+        case 0x1000:
+          {
+            _this.pc = opcode & 0x0FFF;
+            break;
+          }
+        case 0x2000:
+          {
+            _this.stack[_this.sp] = _this.pc;
+            _this.sp++;
+            _this.pc = opcode & 0x0FFF;
+            break;
+          }
+        case 0x3000:
+          {
+            var VXIndex = (opcode & 0x0F00) >> 8;
+            var NN = opcode & 0x00FF;
+
+            if (_this.V[VXIndex] == NN) {
+              _this.pc += 4;
+            } else {
+              _this.pc += 2;
+            }
+            break;
+          }
+        case 0x4000:
+          {
+            var _VXIndex = (opcode & 0x0F00) >> 8;
+            var _NN = opcode & 0x00FF;
+
+            if (_this.V[_VXIndex] != _NN) {
+              _this.pc += 4;
+            } else {
+              _this.pc += 2;
+            }
+            break;
+          }
+        case 0x5000:
+          {
+            var _VXIndex2 = (opcode & 0x0F00) >> 8;
+            var VYIndex = (opcode & 0x00F0) >> 4;
+
+            if (_this.V[_VXIndex2] == _this.V[VYIndex]) {
+              _this.pc += 4;
+            } else {
+              _this.pc += 2;
+            }
+            break;
+          }
+        case 0x6000:
+          {
+            var _VXIndex3 = (opcode & 0x0F00) >> 8;
+            var _NN2 = opcode & 0x00FF;
+            _this.V[_VXIndex3] = _NN2;
+            _this.pc += 2;
+            break;
+          }
+        case 0x7000:
+          {
+            var _VXIndex4 = (opcode & 0x0F00) >> 8;
+            var _NN3 = opcode & 0x00FF;
+            _this.V[_VXIndex4] += _NN3;
+            _this.pc += 2;
+            break;
+          }
+        case 0x8000:
+          {
+            var _VXIndex5 = (opcode & 0x0F00) >> 8;
+            var _VYIndex = (opcode & 0x00F0) >> 4;
+
+            switch (opcode & 0x000F) {
+              case 0x0000:
+                {
+                  _this.V[_VXIndex5] = _this.V[_VYIndex];
+                  break;
+                }
+              case 0x0001:
+                {
+                  _this.V[_VXIndex5] |= _this.V[_VYIndex];
+                  break;
+                }
+              case 0x0002:
+                {
+                  _this.V[_VXIndex5] &= _this.V[_VYIndex];
+                  break;
+                }
+              case 0x0003:
+                {
+                  _this.V[_VXIndex5] ^= _this.V[_VYIndex];
+                  break;
+                }
+              case 0x0004:
+                {
+                  if (_this.V[_VYIndex] > 0xFF - _this.V[_VXIndex5]) {
+                    _this.V[0xF] = 1;
+                  } else {
+                    _this.V[0xF] = 0;
+                  }
+                  _this.V[_VXIndex5] += _this.V[_VYIndex];
+                  break;
+                }
+              case 0x0005:
+                {
+                  if (_this.V[_VYIndex] > _this.V[_VXIndex5]) {
+                    _this.V[0xF] = 0;
+                  } else {
+                    _this.V[0xF] = 1;
+                  }
+                  _this.V[_VXIndex5] -= _this.V[_VYIndex];
+                  break;
+                }
+              case 0x0006:
+                {
+                  _this.V[0xF] = _this.V[_VXIndex5] & 0x1;
+                  _this.V[_VXIndex5] >>= 1;
+                  break;
+                }
+              case 0x0007:
+                {
+                  if (_this.V[_VXIndex5] > _this.V[_VYIndex]) {
+                    _this.V[0xF] = 0;
+                  } else {
+                    _this.V[0xF] = 1;
+                  }
+                  _this.V[_VXIndex5] = _this.V[_VYIndex] - _this.V[_VXIndex5];
+                  break;
+                }
+              case 0x000E:
+                {
+                  _this.V[0xF] = _this.V[_VXIndex5] >> 7;
+                  _this.V[_VXIndex5] <<= 1;
+                  break;
+                }
+            }
+
+            _this.pc += 2;
+            break;
+          }
+        case 0x9000:
+          {
+            var _VXIndex6 = (opcode & 0x0F00) >> 8;
+            var _VYIndex2 = (opcode & 0x00F0) >> 4;
+            if (_this.V[_VXIndex6] != _this.V[_VYIndex2]) {
+              _this.pc += 2;
+            }
+            break;
+          }
+        case 0xA000:
+          {
+            _this.I = opcode & 0x0FFF;
+            _this.pc += 2;
+            break;
+          }
+        case 0xB000:
+          {
+            var addr = opcode & 0x0FFF;
+            _this.pc = addr + _this.V[0];
+            break;
+          }
+        case 0xC000:
+          {
+            var _VXIndex7 = (opcode & 0x0F00) >> 8;
+            var _NN4 = opcode & 0x00FF;
+            _this.V[_VXIndex7] = _NN4 & Math.random() * 0xFF;
+            _this.pc += 2;
+            break;
+          }
+        case 0xD000:
+          {
+            var width = 8;
+            var x = _this.V[(opcode & 0x0F00) >> 8];
+            var y = _this.V[(opcode & 0x00F0) >> 4];
+            var height = opcode & 0x000F;
+            _this.V[0xF] = 0;
+
+            for (var yline = 0; yline < height; yline++) {
+              var pixel = _this.memory[_this.I + yline];
+              for (var xline = 0; xline < width; xline++) {
+                if ((pixel & 0x80 >> xline) != 0) {
+                  if (_this.gfx[x + xline + (y + yline) * screenWidth] == 1) {
+                    _this.V[0xF] = 1;
+                  }
+                  _this.gfx[x + xline + (y + yline) * screenWidth] ^= 1;
+                }
+              }
+            }
+
+            _this.drawFlag = true;
+            _this.pc += 2;
+            break;
+          }
+        case 0xE000:
+          {
+            switch (opcode & 0x00FF) {
+              case 0x009E:
+                {
+                  if (_this.key[_this.V[(opcode & 0x0F00) >> 8]] != 0) _this.pc += 4;else _this.pc += 2;
+                  break;
+                }
+              case 0x00A1:
+                {
+                  if (_this.key[_this.V[(opcode & 0x0F00) >> 8]] == 0) _this.pc += 4;else _this.pc += 2;
+                  break;
+                }
+            }
+            break;
+          }
+        case 0xF000:
+          {
+            switch (opcode & 0x00FF) {
+              case 0x0007:
+                {
+                  _this.V[(opcode & 0x0F00) >> 8] = _this.delayTimer;
+                  _this.pc += 2;
+                  break;
+                }
+              case 0x000A:
+                {
+                  var keyPress = false;
+                  for (var k = 0; k < _this.key.length; k++) {
+                    if (_this.key[k] != 0) {
+                      _this.V[(opcode & 0x0F00) >> 8] = k;
+                      keyPress = true;
+                      break;
+                    }
+                  }
+
+                  if (!keyPress) {
+                    return;
+                  }
+
+                  _this.pc += 2;
+                  break;
+                }
+              case 0x0015:
+                {
+                  _this.delayTimer = _this.V[(opcode & 0x0F00) >> 8];
+                  _this.pc += 2;
+                  break;
+                }
+              case 0x0018:
+                {
+                  _this.soundTimer = _this.V[(opcode & 0x0F00) >> 8];
+                  _this.pc += 2;
+                  break;
+                }
+              case 0x001E:
+                {
+                  var _VXIndex8 = (opcode & 0x0F00) >> 8;
+                  if (_this.I + _this.V[_VXIndex8] > 0xFFF) {
+                    _this.V[0xF] = 1;
+                  } else {
+                    _this.V[0xF] = 0;
+                  }
+
+                  _this.I += _this.V[_VXIndex8];
+                  _this.I %= 0x1000;
+                  _this.pc += 2;
+                  break;
+                }
+              case 0x0029:
+                {
+                  var sprite = _this.V[(opcode & 0x0F00) >> 8];
+                  // Font set starts at 0x0 and each character takes up 5 bytes.
+                  _this.I = sprite * 0x5;
+                  _this.pc += 2;
+                  break;
+                }
+              case 0x0033:
+                {
+                  _this.memory[_this.I] = Math.floor(_this.V[(opcode & 0x0F00) >> 8] / 100);
+                  _this.memory[_this.I + 1] = Math.floor(_this.V[(opcode & 0x0F00) >> 8] / 10) % 10;
+                  _this.memory[_this.I + 2] = _this.V[(opcode & 0x0F00) >> 8] % 100 % 10;
+                  _this.pc += 2;
+                  break;
+                }
+              case 0x0055:
+                {
+                  var end = (opcode & 0x0F00) >> 8;
+                  for (var vi = 0; vi <= end; vi++) {
+                    _this.memory[_this.I] = _this.V[vi];
+                    _this.I++;
+                  }
+                  _this.pc += 2;
+                  break;
+                }
+              case 0x0065:
+                {
+                  var _end = (opcode & 0x0F00) >> 8;
+                  for (var vi = 0; vi <= _end; vi++) {
+                    _this.V[vi] = _this.memory[_this.I];
+                    _this.I++;
+                  }
+                  _this.pc += 2;
+                  break;
+                }
+            }
+            break;
+          }
+      }
+
+      if (_this.delayTimer > 0) {
+        _this.delayTimer--;
+      }
+
+      if (_this.soundTimer > 0) {
+        if (_this.soundTimer == 1) {
+          console.log("BEEP");
+        }
+        _this.soundTimer--;
+      }
+    };
+
+    this.drawGraphics = function () {
+      var ctx = _this.canvasEl.getContext('2d');
+      var scale = 10;
+      var imageData = ctx.getImageData(0, 0, screenWidth * scale, screenHeight * scale);
+      var data = imageData.data;
+      var buf = new ArrayBuffer(imageData.data.length);
+      var buf8 = new Uint8ClampedArray(buf);
+      var data = new Uint32Array(buf);
+
+      for (var y = 0; y < screenHeight; y++) {
+        for (var x = 0; x < screenWidth; x++) {
+          var value = _this.gfx[x + y * screenWidth];
+          var px = x * scale;
+          var py = y * scale;
+          var scaledWidth = screenWidth * scale;
+
+          for (var iy = 0; iy < scale; iy++) {
+            for (var ix = 0; ix < scale; ix++) {
+              var dataIndex = px + py * scaledWidth;
+              dataIndex += ix;
+              dataIndex += iy * scaledWidth;
+              data[dataIndex] = value == 1 ? 0xFFFFFFFF : 0xFF000000;
+            }
+          }
+        }
+      }
+
+      imageData.data.set(buf8);
+      ctx.putImageData(imageData, 0, 0);
+      _this.drawFlag = false;
+    };
+
+    this.onKeyUp = function (k) {
+      if (k == "1") _this.key[0x1] = 1;else if (k == "2") _this.key[0x2] = 1;else if (k == "3") _this.key[0x3] = 1;else if (k == "4") _this.key[0xC] = 1;else if (k == "q") _this.key[0x4] = 1;else if (k == "w") _this.key[0x5] = 1;else if (k == "e") _this.key[0x6] = 1;else if (k == "r") _this.key[0xD] = 1;else if (k == "a") _this.key[0x7] = 1;else if (k == "s") _this.key[0x8] = 1;else if (k == "d") _this.key[0x9] = 1;else if (k == "f") _this.key[0xE] = 1;else if (k == "z") _this.key[0xA] = 1;else if (k == "x") _this.key[0x0] = 1;else if (k == "c") _this.key[0xB] = 1;else if (k == "v") _this.key[0xF] = 1;
+    };
+
+    this.onKeyDown = function (k) {
+      if (k == "1") _this.key[0x1] = 0;else if (k == "2") _this.key[0x2] = 0;else if (k == "3") _this.key[0x3] = 0;else if (k == "4") _this.key[0xC] = 0;else if (k == "q") _this.key[0x4] = 0;else if (k == "w") _this.key[0x5] = 0;else if (k == "e") _this.key[0x6] = 0;else if (k == "r") _this.key[0xD] = 0;else if (k == "a") _this.key[0x7] = 0;else if (k == "s") _this.key[0x8] = 0;else if (k == "d") _this.key[0x9] = 0;else if (k == "f") _this.key[0xE] = 0;else if (k == "z") _this.key[0xA] = 0;else if (k == "x") _this.key[0x0] = 0;else if (k == "c") _this.key[0xB] = 0;else if (k == "v") _this.key[0xF] = 0;
+    };
+
+    this.fps = 60;
+    this.then = 0;
+    this.canvasEl = canvasEl;
+
+    this.reset();
+  }
+
+  _createClass(Chip8Emulator, [{
+    key: 'start',
+    value: function start() {
+      this.executionLoop();
+      this.renderLoop();
+      this.then = Date.now();
+    }
+  }, {
+    key: 'stop',
+    value: function stop() {
+      if (this.executionLoopInterval) {
+        clearInterval(this.executionLoopInterval);
+      }
+
+      if (this.renderLoopId) {
+        window.cancelAnimationFrame(this.renderLoopId);
+        this.renderLoopId = null;
+      }
+    }
+  }, {
+    key: '__reactstandin__regenerateByEval',
+    // @ts-ignore
+    value: function __reactstandin__regenerateByEval(key, code) {
+      // @ts-ignore
+      this[key] = eval(code);
+    }
+  }]);
+
+  return Chip8Emulator;
+}();
+
+var _default = Chip8Emulator;
+exports.default = _default;
+;
+
+(function () {
+  var reactHotLoader = __webpack_require__(/*! react-hot-loader */ "./node_modules/react-hot-loader/index.js").default;
+
+  var leaveModule = __webpack_require__(/*! react-hot-loader */ "./node_modules/react-hot-loader/index.js").leaveModule;
+
+  if (!reactHotLoader) {
+    return;
+  }
+
+  reactHotLoader.register(screenWidth, 'screenWidth', '/Users/sleroux/development/chip8-js/src/lib/chip8.js');
+  reactHotLoader.register(screenHeight, 'screenHeight', '/Users/sleroux/development/chip8-js/src/lib/chip8.js');
+  reactHotLoader.register(Chip8Emulator, 'Chip8Emulator', '/Users/sleroux/development/chip8-js/src/lib/chip8.js');
+  reactHotLoader.register(_default, 'default', '/Users/sleroux/development/chip8-js/src/lib/chip8.js');
+  leaveModule(module);
+})();
+
+;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../node_modules/webpack/buildin/module.js */ "./node_modules/webpack/buildin/module.js")(module)))
+
+/***/ }),
+
+/***/ "./src/lib/fontset.js":
+/*!****************************!*\
+  !*** ./src/lib/fontset.js ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(module) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+(function () {
+  var enterModule = __webpack_require__(/*! react-hot-loader */ "./node_modules/react-hot-loader/index.js").enterModule;
+
+  enterModule && enterModule(module);
+})();
+
+var _default = [0xF0, 0x90, 0x90, 0x90, 0xF0, // 0
+0x20, 0x60, 0x20, 0x20, 0x70, // 1
+0xF0, 0x10, 0xF0, 0x80, 0xF0, // 2
+0xF0, 0x10, 0xF0, 0x10, 0xF0, // 3
+0x90, 0x90, 0xF0, 0x10, 0x10, // 4
+0xF0, 0x80, 0xF0, 0x10, 0xF0, // 5
+0xF0, 0x80, 0xF0, 0x90, 0xF0, // 6
+0xF0, 0x10, 0x20, 0x40, 0x40, // 7
+0xF0, 0x90, 0xF0, 0x90, 0xF0, // 8
+0xF0, 0x90, 0xF0, 0x10, 0xF0, // 9
+0xF0, 0x90, 0xF0, 0x90, 0x90, // A
+0xE0, 0x90, 0xE0, 0x90, 0xE0, // B
+0xF0, 0x80, 0x80, 0x80, 0xF0, // C
+0xE0, 0x90, 0x90, 0x90, 0xE0, // D
+0xF0, 0x80, 0xF0, 0x80, 0xF0, // E
+0xF0, 0x80, 0xF0, 0x80, 0x80];
+exports.default = _default;
+;
+
+(function () {
+  var reactHotLoader = __webpack_require__(/*! react-hot-loader */ "./node_modules/react-hot-loader/index.js").default;
+
+  var leaveModule = __webpack_require__(/*! react-hot-loader */ "./node_modules/react-hot-loader/index.js").leaveModule;
+
+  if (!reactHotLoader) {
+    return;
+  }
+
+  reactHotLoader.register(_default, "default", "/Users/sleroux/development/chip8-js/src/lib/fontset.js");
+  leaveModule(module);
+})();
+
+;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../node_modules/webpack/buildin/module.js */ "./node_modules/webpack/buildin/module.js")(module)))
+
+/***/ }),
+
+/***/ "./src/styles.scss":
+/*!*************************!*\
+  !*** ./src/styles.scss ***!
+  \*************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../node_modules/css-loader??ref--6-1!../../node_modules/sass-loader/lib/loader.js??ref--6-2!./styles.scss */ "./node_modules/css-loader/index.js??ref--6-1!./node_modules/sass-loader/lib/loader.js??ref--6-2!./src/styles/styles.scss");
+var content = __webpack_require__(/*! !../node_modules/css-loader??ref--6-1!../node_modules/sass-loader/lib/loader.js??ref--6-2!./styles.scss */ "./node_modules/css-loader/index.js??ref--6-1!./node_modules/sass-loader/lib/loader.js??ref--6-2!./src/styles.scss");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -31858,7 +33082,7 @@ var options = {"hmr":true}
 options.transform = transform
 options.insertInto = undefined;
 
-var update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+var update = __webpack_require__(/*! ../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
 
 if(content.locals) module.exports = content.locals;
 

@@ -13,6 +13,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname),
     filename: 'bundle.js',
+    globalObject: 'this', 
   },
   module: {
     rules: [
@@ -42,6 +43,19 @@ module.exports = {
           }
         ],
         test: /\.scss$/
+      },
+      {
+        test: /\.(png|svg)$/,
+        use: [
+          {
+            loader: 'url-loader',
+            options: {
+              limit: 8000, // 8kb limit
+              name: 'images/[hash]-[name].[ext]'
+            }
+          }
+        ]
+
       }
     ],
   },

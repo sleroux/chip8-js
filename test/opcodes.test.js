@@ -1,5 +1,5 @@
-import Chip8Emulator from '../client/components/chip8_emulator/emulator.js';
-import fontset from '../client/components/chip8_emulator/fontset.js';
+import Chip8Emulator from '../src/lib/chip8.js';
+import fontset from '../src/lib/fontset.js';
 
 test('opcode 0x00E0 clears the screen', () => {
   const emulator = new Chip8Emulator();
@@ -340,16 +340,6 @@ test('opcode BNNN jumps to the address NNN plus V0', () => {
   expect(emulator.pc).toBe(0x20 + 0x222);
 });
 
-test('opcode CXNN sets VX to the result of a bitwise AND operation on a random number (0-255) and NN', () => {
-  const emulator = new Chip8Emulator();
-  const pc = emulator.pc;
-  emulator.memory[pc] = 0xC2;
-  emulator.memory[pc + 1] = 0x22;
-  emulator.emulateCycle();
-  // TODO: Add in class mock for Math.random?
-  // expect(emulator.pc).toBe(0x20 + 0x22);
-});
-
 test('opcode DXYN draws a sprite at coordinate (VX, VY) with height N', () => {
   const emulator = new Chip8Emulator();
   const zeroSprite = fontset.slice(0, 5);
@@ -362,7 +352,7 @@ test('opcode DXYN draws a sprite at coordinate (VX, VY) with height N', () => {
   for (var y = 0; y < 5; y++) {
     const pixel = zeroSprite[y];
     for (var x = 0; x < 8; x++) {
-      const actual = emulator.gfx[drawX + x + ((drawY + y) * emulator.screenWidth)];
+      const actual = emulator.gfx[drawX + x + ((drawY + y) * 64)];
       const expected = (pixel & (0x80 >> x)) != 0 ? 1 : 0; 
       expect(actual).toBe(expected);
     }
