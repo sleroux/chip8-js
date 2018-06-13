@@ -6,8 +6,7 @@
   "scripts": {
     "test": "jest",
     "start": "webpack-dev-server --hot",
-    "webpack": "npx webpack --config webpack.config.js",
-    "deploy": "gh-pagpython -m SimpleHTTPServer 400ues -d build"
+    "webpack": "npx webpack --config webpack.config.js"
   },
   "keywords": [],
   "author": "",
