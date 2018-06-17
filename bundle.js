@@ -32186,7 +32186,7 @@ var KeyboardLayout = function (_React$Component) {
               ),
               Object.keys(hexToKeyMap).map(function (k) {
                 var keybinding = hexToKeyMap[k];
-                _react2.default.createElement(
+                return _react2.default.createElement(
                   'td',
                   { key: keybinding },
                   _react2.default.createElement(

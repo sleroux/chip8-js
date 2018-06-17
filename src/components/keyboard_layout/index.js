@@ -37,7 +37,7 @@ export default class KeyboardLayout extends React.Component {
               {
                 Object.keys(hexToKeyMap).map((k) => {
                   const keybinding = hexToKeyMap[k];
-                  <td key={keybinding}><p>{keybinding}</p></td>
+                  return <td key={keybinding}><p>{keybinding}</p></td>
                 })
               }
             </tr>
