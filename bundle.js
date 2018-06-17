@@ -32163,7 +32163,7 @@ var KeyboardLayout = function (_React$Component) {
               Object.keys(hexToKeyMap).map(function (k) {
                 return _react2.default.createElement(
                   'td',
-                  null,
+                  { key: k },
                   _react2.default.createElement(
                     'p',
                     null,
@@ -32185,13 +32185,14 @@ var KeyboardLayout = function (_React$Component) {
                 )
               ),
               Object.keys(hexToKeyMap).map(function (k) {
-                return _react2.default.createElement(
+                var key = hexToKeyMap[k];
+                _react2.default.createElement(
                   'td',
-                  null,
+                  { key: key },
                   _react2.default.createElement(
                     'p',
                     null,
-                    hexToKeyMap[k]
+                    key
                   )
                 );
               })
