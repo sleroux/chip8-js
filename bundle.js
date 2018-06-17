@@ -31784,7 +31784,7 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var production = false;
+var production = true;
 
 var App = function (_React$Component) {
   _inherits(App, _React$Component);
@@ -31807,7 +31807,7 @@ var App = function (_React$Component) {
           while (1) {
             switch (_context.prev = _context.next) {
               case 0:
-                urlRoot = production ? "https://sleroux.github.com/chip8" : "http://localhost:8080";
+                urlRoot = production ? "https://sleroux.github.com/chip8-js" : "http://localhost:8080";
                 romUrl = urlRoot + "/roms/" + romName;
                 _context.next = 4;
                 return fetch(romUrl);
@@ -32163,7 +32163,7 @@ var KeyboardLayout = function (_React$Component) {
               Object.keys(hexToKeyMap).map(function (k) {
                 return _react2.default.createElement(
                   'td',
-                  null,
+                  { key: k },
                   _react2.default.createElement(
                     'p',
                     null,
@@ -32185,13 +32185,14 @@ var KeyboardLayout = function (_React$Component) {
                 )
               ),
               Object.keys(hexToKeyMap).map(function (k) {
+                var keybinding = hexToKeyMap[k];
                 return _react2.default.createElement(
                   'td',
-                  null,
+                  { key: keybinding },
                   _react2.default.createElement(
                     'p',
                     null,
-                    hexToKeyMap[k]
+                    keybinding
                   )
                 );
               })
