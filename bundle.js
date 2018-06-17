@@ -31807,7 +31807,7 @@ var App = function (_React$Component) {
           while (1) {
             switch (_context.prev = _context.next) {
               case 0:
-                urlRoot = production ? "https://sleroux.github.com/chip8" : "http://localhost:8080";
+                urlRoot = production ? "https://sleroux.github.com/chip8-js" : "http://localhost:8080";
                 romUrl = urlRoot + "/roms/" + romName;
                 _context.next = 4;
                 return fetch(romUrl);
@@ -32185,14 +32185,14 @@ var KeyboardLayout = function (_React$Component) {
                 )
               ),
               Object.keys(hexToKeyMap).map(function (k) {
-                var key = hexToKeyMap[k];
+                var keybinding = hexToKeyMap[k];
                 _react2.default.createElement(
                   'td',
-                  { key: key },
+                  { key: keybinding },
                   _react2.default.createElement(
                     'p',
                     null,
-                    key
+                    keybinding
                   )
                 );
               })

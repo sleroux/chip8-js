@@ -20,7 +20,7 @@ class App extends React.Component {
   }
 
   onLoadRom = async (romName) => {
-    const urlRoot = production ? "https://sleroux.github.com/chip8" : "http://localhost:8080";
+    const urlRoot = production ? "https://sleroux.github.com/chip8-js" : "http://localhost:8080";
     const romUrl = urlRoot + "/roms/" + romName;
     const response = await fetch(romUrl);
     const arrayBuffer = await response.arrayBuffer();
