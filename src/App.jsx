@@ -19,7 +19,7 @@ class App extends React.Component {
 
   onLoadRom = async (romName) => {
     const romUrl = "/roms/" + romName;
-    const response = await fetch("chip8-js" + romUrl);
+    const response = await fetch(romUrl);
     const arrayBuffer = await response.arrayBuffer();
     const romData = new Uint8Array(arrayBuffer);
 
