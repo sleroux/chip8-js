@@ -10659,10 +10659,10 @@ module.exports = __webpack_require__(/*! ./modules/_core */ "./node_modules/core
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js??ref--6-1!./node_modules/sass-loader/lib/loader.js??ref--6-2!./src/components/emulator/styles.scss":
-/*!************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader??ref--6-1!./node_modules/sass-loader/lib/loader.js??ref--6-2!./src/components/emulator/styles.scss ***!
-  \************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/index.js??ref--6-1!./node_modules/sass-loader/lib/loader.js??ref--6-2!./src/components/Emulator/Emulator.scss":
+/*!**************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/sass-loader/lib/loader.js??ref--6-2!./src/components/Emulator/Emulator.scss ***!
+  \**************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10671,17 +10671,17 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, ".emulator_view {\n  display: flex;\n  margin: 20px; }\n", "", {"version":3,"sources":["/Users/sleroux/development/chip8-js/src/components/emulator/src/components/emulator/styles.scss"],"names":[],"mappings":"AAAA;EACI,cAAa;EACb,aAAY,EACf","file":"styles.scss","sourcesContent":[".emulator_view {\n    display: flex;\n    margin: 20px;\n}\n"],"sourceRoot":""}]);
+exports.push([module.i, ".emulator_view {\n  display: flex;\n  margin: 20px; }\n", "", {"version":3,"sources":["/Users/sleroux/development/chip8-js/src/components/Emulator/src/components/Emulator/Emulator.scss"],"names":[],"mappings":"AAAA;EACI,cAAa;EACb,aAAY,EACf","file":"Emulator.scss","sourcesContent":[".emulator_view {\n    display: flex;\n    margin: 20px;\n}\n"],"sourceRoot":""}]);
 
 // exports
 
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js??ref--6-1!./node_modules/sass-loader/lib/loader.js??ref--6-2!./src/components/keyboard_layout/styles.scss":
-/*!*******************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader??ref--6-1!./node_modules/sass-loader/lib/loader.js??ref--6-2!./src/components/keyboard_layout/styles.scss ***!
-  \*******************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/index.js??ref--6-1!./node_modules/sass-loader/lib/loader.js??ref--6-2!./src/components/KeyboardLayout/KeyboardLayout.scss":
+/*!**************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/sass-loader/lib/loader.js??ref--6-2!./src/components/KeyboardLayout/KeyboardLayout.scss ***!
+  \**************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10690,17 +10690,17 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "table {\n  font-family: 'Press Start 2P', cursive;\n  color: #4CFF00; }\n\np {\n  font-family: 'Press Start 2P', cursive;\n  color: #4CFF00; }\n\n.title {\n  display: flex;\n  justify-content: center; }\n\n.key_layout_container {\n  margin: 34px; }\n", "", {"version":3,"sources":["/Users/sleroux/development/chip8-js/src/components/keyboard_layout/src/components/keyboard_layout/styles.scss"],"names":[],"mappings":"AAAA;EACI,uCAAsC;EACtC,eAAc,EACjB;;AAED;EACI,uCAAsC;EACtC,eAAc,EACjB;;AAED;EACI,cAAa;EACb,wBAAuB,EAC1B;;AAED;EACI,aAAY,EACf","file":"styles.scss","sourcesContent":["table {\n    font-family: 'Press Start 2P', cursive;\n    color: #4CFF00;\n}\n\np {\n    font-family: 'Press Start 2P', cursive;\n    color: #4CFF00;\n}\n\n.title {\n    display: flex;\n    justify-content: center;\n}\n\n.key_layout_container {\n    margin: 34px;\n}\n"],"sourceRoot":""}]);
+exports.push([module.i, "table {\n  font-family: 'Press Start 2P', cursive;\n  color: #4CFF00; }\n\np {\n  font-family: 'Press Start 2P', cursive;\n  color: #4CFF00; }\n\n.title {\n  display: flex;\n  justify-content: center; }\n\n.key_layout_container {\n  margin: 34px; }\n", "", {"version":3,"sources":["/Users/sleroux/development/chip8-js/src/components/KeyboardLayout/src/components/KeyboardLayout/KeyboardLayout.scss"],"names":[],"mappings":"AAAA;EACI,uCAAsC;EACtC,eAAc,EACjB;;AAED;EACI,uCAAsC;EACtC,eAAc,EACjB;;AAED;EACI,cAAa;EACb,wBAAuB,EAC1B;;AAED;EACI,aAAY,EACf","file":"KeyboardLayout.scss","sourcesContent":["table {\n    font-family: 'Press Start 2P', cursive;\n    color: #4CFF00;\n}\n\np {\n    font-family: 'Press Start 2P', cursive;\n    color: #4CFF00;\n}\n\n.title {\n    display: flex;\n    justify-content: center;\n}\n\n.key_layout_container {\n    margin: 34px;\n}\n"],"sourceRoot":""}]);
 
 // exports
 
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js??ref--6-1!./node_modules/sass-loader/lib/loader.js??ref--6-2!./src/components/rom_selector/styles.scss":
-/*!****************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader??ref--6-1!./node_modules/sass-loader/lib/loader.js??ref--6-2!./src/components/rom_selector/styles.scss ***!
-  \****************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/index.js??ref--6-1!./node_modules/sass-loader/lib/loader.js??ref--6-2!./src/components/ROMSelector/ROMSelector.scss":
+/*!********************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/sass-loader/lib/loader.js??ref--6-2!./src/components/ROMSelector/ROMSelector.scss ***!
+  \********************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10709,7 +10709,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, ".select_a_rom {\n  font-family: 'Press Start 2P', cursive;\n  color: #4CFF00; }\n\n.rom_option_button {\n  display: flex;\n  justify-content: center; }\n\n.row_selector {\n  display: flex;\n  flex-direction: column;\n  align-items: center; }\n", "", {"version":3,"sources":["/Users/sleroux/development/chip8-js/src/components/rom_selector/src/components/rom_selector/styles.scss"],"names":[],"mappings":"AAAA;EACI,uCAAsC;EACtC,eAAc,EACjB;;AAED;EACI,cAAa;EACb,wBAAuB,EAC1B;;AAED;EACI,cAAa;EACb,uBAAsB;EACtB,oBAAmB,EACtB","file":"styles.scss","sourcesContent":[".select_a_rom {\n    font-family: 'Press Start 2P', cursive;\n    color: #4CFF00;\n}\n\n.rom_option_button {\n    display: flex;\n    justify-content: center;\n}\n\n.row_selector {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n}\n"],"sourceRoot":""}]);
+exports.push([module.i, ".select_a_rom {\n  font-family: 'Press Start 2P', cursive;\n  color: #4CFF00; }\n\n.rom_option_button {\n  display: flex;\n  justify-content: center; }\n\n.row_selector {\n  display: flex;\n  flex-direction: column;\n  align-items: center; }\n", "", {"version":3,"sources":["/Users/sleroux/development/chip8-js/src/components/ROMSelector/src/components/ROMSelector/ROMSelector.scss"],"names":[],"mappings":"AAAA;EACI,uCAAsC;EACtC,eAAc,EACjB;;AAED;EACI,cAAa;EACb,wBAAuB,EAC1B;;AAED;EACI,cAAa;EACb,uBAAsB;EACtB,oBAAmB,EACtB","file":"ROMSelector.scss","sourcesContent":[".select_a_rom {\n    font-family: 'Press Start 2P', cursive;\n    color: #4CFF00;\n}\n\n.rom_option_button {\n    display: flex;\n    justify-content: center;\n}\n\n.row_selector {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n}\n"],"sourceRoot":""}]);
 
 // exports
 
@@ -31728,10 +31728,10 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./src/app.js":
-/*!********************!*\
-  !*** ./src/app.js ***!
-  \********************/
+/***/ "./src/App.jsx":
+/*!*********************!*\
+  !*** ./src/App.jsx ***!
+  \*********************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -31750,23 +31750,23 @@ var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var _react2 = _interopRequireDefault(_react);
 
-var _emulator = __webpack_require__(/*! ./components/emulator */ "./src/components/emulator/index.js");
+var _Emulator = __webpack_require__(/*! ./components/Emulator */ "./src/components/Emulator/index.js");
 
-var _emulator2 = _interopRequireDefault(_emulator);
+var _Emulator2 = _interopRequireDefault(_Emulator);
 
-var _rom_selector = __webpack_require__(/*! ./components/rom_selector */ "./src/components/rom_selector/index.js");
+var _ROMSelector = __webpack_require__(/*! ./components/ROMSelector */ "./src/components/ROMSelector/index.js");
 
-var _rom_selector2 = _interopRequireDefault(_rom_selector);
+var _ROMSelector2 = _interopRequireDefault(_ROMSelector);
+
+var _KeyboardLayout = __webpack_require__(/*! ./components/KeyboardLayout */ "./src/components/KeyboardLayout/index.js");
+
+var _KeyboardLayout2 = _interopRequireDefault(_KeyboardLayout);
 
 var _reactHotLoader = __webpack_require__(/*! react-hot-loader */ "./node_modules/react-hot-loader/index.js");
 
 var _styles = __webpack_require__(/*! ./styles.scss */ "./src/styles.scss");
 
 var _styles2 = _interopRequireDefault(_styles);
-
-var _keyboard_layout = __webpack_require__(/*! ./components/keyboard_layout */ "./src/components/keyboard_layout/index.js");
-
-var _keyboard_layout2 = _interopRequireDefault(_keyboard_layout);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -31784,8 +31784,6 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var production = true;
-
 var App = function (_React$Component) {
   _inherits(App, _React$Component);
 
@@ -31802,22 +31800,21 @@ var App = function (_React$Component) {
 
     _this.onLoadRom = function () {
       var _ref = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee(romName) {
-        var urlRoot, romUrl, response, arrayBuffer, romData;
+        var romUrl, response, arrayBuffer, romData;
         return regeneratorRuntime.wrap(function _callee$(_context) {
           while (1) {
             switch (_context.prev = _context.next) {
               case 0:
-                urlRoot = production ? "https://sleroux.github.com/chip8-js" : "http://localhost:8080";
-                romUrl = urlRoot + "/roms/" + romName;
-                _context.next = 4;
+                romUrl = "/roms/" + romName;
+                _context.next = 3;
                 return fetch(romUrl);
 
-              case 4:
+              case 3:
                 response = _context.sent;
-                _context.next = 7;
+                _context.next = 6;
                 return response.arrayBuffer();
 
-              case 7:
+              case 6:
                 arrayBuffer = _context.sent;
                 romData = new Uint8Array(arrayBuffer);
 
@@ -31828,7 +31825,7 @@ var App = function (_React$Component) {
                   });
                 });
 
-              case 10:
+              case 9:
               case 'end':
                 return _context.stop();
             }
@@ -31855,9 +31852,9 @@ var App = function (_React$Component) {
           { className: 'title' },
           '..chip 8 emulator..'
         ),
-        _react2.default.createElement(_emulator2.default, { selectedRom: this.state.selectedRom }),
-        _react2.default.createElement(_rom_selector2.default, { onLoadRom: this.onLoadRom }),
-        _react2.default.createElement(_keyboard_layout2.default, null)
+        _react2.default.createElement(_Emulator2.default, { selectedRom: this.state.selectedRom }),
+        _react2.default.createElement(_ROMSelector2.default, { onLoadRom: this.onLoadRom }),
+        _react2.default.createElement(_KeyboardLayout2.default, null)
       );
     }
   }, {
@@ -31886,9 +31883,8 @@ exports.default = _default;
     return;
   }
 
-  reactHotLoader.register(production, 'production', '/Users/sleroux/development/chip8-js/src/app.js');
-  reactHotLoader.register(App, 'App', '/Users/sleroux/development/chip8-js/src/app.js');
-  reactHotLoader.register(_default, 'default', '/Users/sleroux/development/chip8-js/src/app.js');
+  reactHotLoader.register(App, 'App', '/Users/sleroux/development/chip8-js/src/App.jsx');
+  reactHotLoader.register(_default, 'default', '/Users/sleroux/development/chip8-js/src/App.jsx');
   leaveModule(module);
 })();
 
@@ -31897,10 +31893,10 @@ exports.default = _default;
 
 /***/ }),
 
-/***/ "./src/components/emulator/index.js":
-/*!******************************************!*\
-  !*** ./src/components/emulator/index.js ***!
-  \******************************************/
+/***/ "./src/components/Emulator/Emulator.jsx":
+/*!**********************************************!*\
+  !*** ./src/components/Emulator/Emulator.jsx ***!
+  \**********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -31917,13 +31913,13 @@ var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var _react2 = _interopRequireDefault(_react);
 
-var _chip = __webpack_require__(/*! ../../lib/chip8 */ "./src/lib/chip8.js");
+var _chip = __webpack_require__(/*! ./lib/chip8.js */ "./src/components/Emulator/lib/chip8.js");
 
 var _chip2 = _interopRequireDefault(_chip);
 
-var _styles = __webpack_require__(/*! ./styles.scss */ "./src/components/emulator/styles.scss");
+var _Emulator = __webpack_require__(/*! ./Emulator.scss */ "./src/components/Emulator/Emulator.scss");
 
-var _styles2 = _interopRequireDefault(_styles);
+var _Emulator2 = _interopRequireDefault(_Emulator);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -31979,7 +31975,6 @@ var Emulator = function (_React$Component) {
     key: 'componentDidMount',
     value: function componentDidMount() {
       var emulator = new _chip2.default(this._canvasEl);
-
       this.setState(function (prevState) {
         return {
           emulator: emulator
@@ -31997,7 +31992,7 @@ var Emulator = function (_React$Component) {
     value: function render() {
       var _this2 = this;
 
-      return _react2.default.createElement('canvas', { className: 'emulator_view', width: '640px', height: '320px', ref: function ref(c) {
+      return _react2.default.createElement('canvas', { className: _Emulator2.default.emulator_view, width: '640px', height: '320px', ref: function ref(c) {
           return _this2._canvasEl = c;
         } });
     }
@@ -32026,8 +32021,8 @@ exports.default = _default;
     return;
   }
 
-  reactHotLoader.register(Emulator, 'Emulator', '/Users/sleroux/development/chip8-js/src/components/emulator/index.js');
-  reactHotLoader.register(_default, 'default', '/Users/sleroux/development/chip8-js/src/components/emulator/index.js');
+  reactHotLoader.register(Emulator, 'Emulator', '/Users/sleroux/development/chip8-js/src/components/Emulator/Emulator.jsx');
+  reactHotLoader.register(_default, 'default', '/Users/sleroux/development/chip8-js/src/components/Emulator/Emulator.jsx');
   leaveModule(module);
 })();
 
@@ -32036,15 +32031,15 @@ exports.default = _default;
 
 /***/ }),
 
-/***/ "./src/components/emulator/styles.scss":
-/*!*********************************************!*\
-  !*** ./src/components/emulator/styles.scss ***!
-  \*********************************************/
+/***/ "./src/components/Emulator/Emulator.scss":
+/*!***********************************************!*\
+  !*** ./src/components/Emulator/Emulator.scss ***!
+  \***********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--6-1!../../../node_modules/sass-loader/lib/loader.js??ref--6-2!./styles.scss */ "./node_modules/css-loader/index.js??ref--6-1!./node_modules/sass-loader/lib/loader.js??ref--6-2!./src/components/emulator/styles.scss");
+var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--6-1!../../../node_modules/sass-loader/lib/loader.js??ref--6-2!./Emulator.scss */ "./node_modules/css-loader/index.js??ref--6-1!./node_modules/sass-loader/lib/loader.js??ref--6-2!./src/components/Emulator/Emulator.scss");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -32066,10 +32061,10 @@ if(false) {}
 
 /***/ }),
 
-/***/ "./src/components/keyboard_layout/index.js":
-/*!*************************************************!*\
-  !*** ./src/components/keyboard_layout/index.js ***!
-  \*************************************************/
+/***/ "./src/components/Emulator/index.js":
+/*!******************************************!*\
+  !*** ./src/components/Emulator/index.js ***!
+  \******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -32080,15 +32075,9 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+var _Emulator = __webpack_require__(/*! ./Emulator.jsx */ "./src/components/Emulator/Emulator.jsx");
 
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-var _styles = __webpack_require__(/*! ./styles.scss */ "./src/components/keyboard_layout/styles.scss");
-
-var _styles2 = _interopRequireDefault(_styles);
+var _Emulator2 = _interopRequireDefault(_Emulator);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -32098,122 +32087,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
   enterModule && enterModule(module);
 })();
 
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var hexToKeyMap = {
-  "1": "1",
-  "2": "2",
-  "3": "3",
-  "4": "Q",
-  "5": "W",
-  "6": "E",
-  "D": "R",
-  "7": "A",
-  "8": "S",
-  "9": "D",
-  "E": "F",
-  "A": "Z",
-  "0": "X",
-  "B": "C",
-  "F": "V"
-};
-
-var KeyboardLayout = function (_React$Component) {
-  _inherits(KeyboardLayout, _React$Component);
-
-  function KeyboardLayout() {
-    _classCallCheck(this, KeyboardLayout);
-
-    return _possibleConstructorReturn(this, (KeyboardLayout.__proto__ || Object.getPrototypeOf(KeyboardLayout)).apply(this, arguments));
-  }
-
-  _createClass(KeyboardLayout, [{
-    key: 'render',
-    value: function render() {
-      return _react2.default.createElement(
-        'div',
-        { className: 'key_layout_container' },
-        _react2.default.createElement(
-          'h2',
-          { className: 'title' },
-          'keybindings'
-        ),
-        _react2.default.createElement(
-          'table',
-          null,
-          _react2.default.createElement(
-            'tbody',
-            null,
-            _react2.default.createElement(
-              'tr',
-              null,
-              _react2.default.createElement(
-                'td',
-                null,
-                _react2.default.createElement(
-                  'p',
-                  null,
-                  'keypad'
-                )
-              ),
-              Object.keys(hexToKeyMap).map(function (k) {
-                return _react2.default.createElement(
-                  'td',
-                  { key: k },
-                  _react2.default.createElement(
-                    'p',
-                    null,
-                    k
-                  )
-                );
-              })
-            ),
-            _react2.default.createElement(
-              'tr',
-              null,
-              _react2.default.createElement(
-                'td',
-                null,
-                _react2.default.createElement(
-                  'p',
-                  null,
-                  'keyboard'
-                )
-              ),
-              Object.keys(hexToKeyMap).map(function (k) {
-                var keybinding = hexToKeyMap[k];
-                return _react2.default.createElement(
-                  'td',
-                  { key: keybinding },
-                  _react2.default.createElement(
-                    'p',
-                    null,
-                    keybinding
-                  )
-                );
-              })
-            )
-          )
-        )
-      );
-    }
-  }, {
-    key: '__reactstandin__regenerateByEval',
-    // @ts-ignore
-    value: function __reactstandin__regenerateByEval(key, code) {
-      // @ts-ignore
-      this[key] = eval(code);
-    }
-  }]);
-
-  return KeyboardLayout;
-}(_react2.default.Component);
-
-var _default = KeyboardLayout;
+var _default = _Emulator2.default;
 exports.default = _default;
 ;
 
@@ -32226,9 +32100,7 @@ exports.default = _default;
     return;
   }
 
-  reactHotLoader.register(hexToKeyMap, 'hexToKeyMap', '/Users/sleroux/development/chip8-js/src/components/keyboard_layout/index.js');
-  reactHotLoader.register(KeyboardLayout, 'KeyboardLayout', '/Users/sleroux/development/chip8-js/src/components/keyboard_layout/index.js');
-  reactHotLoader.register(_default, 'default', '/Users/sleroux/development/chip8-js/src/components/keyboard_layout/index.js');
+  reactHotLoader.register(_default, 'default', '/Users/sleroux/development/chip8-js/src/components/Emulator/index.js');
   leaveModule(module);
 })();
 
@@ -32237,39 +32109,9 @@ exports.default = _default;
 
 /***/ }),
 
-/***/ "./src/components/keyboard_layout/styles.scss":
-/*!****************************************************!*\
-  !*** ./src/components/keyboard_layout/styles.scss ***!
-  \****************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-
-var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--6-1!../../../node_modules/sass-loader/lib/loader.js??ref--6-2!./styles.scss */ "./node_modules/css-loader/index.js??ref--6-1!./node_modules/sass-loader/lib/loader.js??ref--6-2!./src/components/keyboard_layout/styles.scss");
-
-if(typeof content === 'string') content = [[module.i, content, '']];
-
-var transform;
-var insertInto;
-
-
-
-var options = {"hmr":true}
-
-options.transform = transform
-options.insertInto = undefined;
-
-var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
-
-if(content.locals) module.exports = content.locals;
-
-if(false) {}
-
-/***/ }),
-
-/***/ "./src/components/rom_selector/index.js":
+/***/ "./src/components/Emulator/lib/chip8.js":
 /*!**********************************************!*\
-  !*** ./src/components/rom_selector/index.js ***!
+  !*** ./src/components/Emulator/lib/chip8.js ***!
   \**********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -32281,215 +32123,9 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _styles = __webpack_require__(/*! ./styles.scss */ "./src/components/rom_selector/styles.scss");
-
-var _styles2 = _interopRequireDefault(_styles);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-(function () {
-  var enterModule = __webpack_require__(/*! react-hot-loader */ "./node_modules/react-hot-loader/index.js").enterModule;
-
-  enterModule && enterModule(module);
-})();
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var availableRoms = ["15PUZZLE", "BLINKY", "BRIX", "BLITZ", "CONNECT4", "GUESS", "HIDDEN", "INVADERS", "KALEID", "MAZE", "MERLIN", "MISSLE", "PONG", "PONG2", "PUZZLE", "SYZYGY", "TANK", "TETRIS", "TICTAC", "UFO", "VBRIX", "VERS", "WIPEOFF"];
-
-var ROMSelector = function (_React$Component) {
-  _inherits(ROMSelector, _React$Component);
-
-  function ROMSelector() {
-    var _ref;
-
-    var _temp, _this, _ret;
-
-    _classCallCheck(this, ROMSelector);
-
-    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = ROMSelector.__proto__ || Object.getPrototypeOf(ROMSelector)).call.apply(_ref, [this].concat(args))), _this), _this.state = {
-      selectedRom: availableRoms[0]
-    }, _this.onChangeSelection = function (e) {
-      var romName = e.target.value;
-      _this.setState(function (prevState) {
-        return _extends({}, prevState, {
-          selectedRom: romName
-        });
-      });
-    }, _temp), _possibleConstructorReturn(_this, _ret);
-  }
-
-  _createClass(ROMSelector, [{
-    key: 'render',
-    value: function render() {
-      var _this2 = this;
-
-      return _react2.default.createElement(
-        'div',
-        { className: 'rom_selector' },
-        _react2.default.createElement(
-          'p',
-          { className: 'select_a_rom' },
-          'select a rom'
-        ),
-        _react2.default.createElement(
-          'div',
-          { className: 'rom_option_button' },
-          _react2.default.createElement(
-            'select',
-            { className: 'rom_selection', value: this.state.selectedRom, onChange: this.onChangeSelection },
-            availableRoms.map(function (rom) {
-              return _react2.default.createElement(
-                'option',
-                { key: rom, value: rom },
-                rom
-              );
-            })
-          ),
-          _react2.default.createElement(
-            'button',
-            { className: 'rom_load_button', onClick: function onClick() {
-                _this2.props.onLoadRom(_this2.state.selectedRom);
-              } },
-            'load'
-          )
-        )
-      );
-    }
-  }, {
-    key: '__reactstandin__regenerateByEval',
-    // @ts-ignore
-    value: function __reactstandin__regenerateByEval(key, code) {
-      // @ts-ignore
-      this[key] = eval(code);
-    }
-  }]);
-
-  return ROMSelector;
-}(_react2.default.Component);
-
-ROMSelector.propTypes = {
-  onLoadRom: _propTypes2.default.func.isRequired
-};
-var _default = ROMSelector;
-exports.default = _default;
-;
-
-(function () {
-  var reactHotLoader = __webpack_require__(/*! react-hot-loader */ "./node_modules/react-hot-loader/index.js").default;
-
-  var leaveModule = __webpack_require__(/*! react-hot-loader */ "./node_modules/react-hot-loader/index.js").leaveModule;
-
-  if (!reactHotLoader) {
-    return;
-  }
-
-  reactHotLoader.register(availableRoms, 'availableRoms', '/Users/sleroux/development/chip8-js/src/components/rom_selector/index.js');
-  reactHotLoader.register(ROMSelector, 'ROMSelector', '/Users/sleroux/development/chip8-js/src/components/rom_selector/index.js');
-  reactHotLoader.register(_default, 'default', '/Users/sleroux/development/chip8-js/src/components/rom_selector/index.js');
-  leaveModule(module);
-})();
-
-;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../node_modules/webpack/buildin/module.js */ "./node_modules/webpack/buildin/module.js")(module)))
-
-/***/ }),
-
-/***/ "./src/components/rom_selector/styles.scss":
-/*!*************************************************!*\
-  !*** ./src/components/rom_selector/styles.scss ***!
-  \*************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-
-var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--6-1!../../../node_modules/sass-loader/lib/loader.js??ref--6-2!./styles.scss */ "./node_modules/css-loader/index.js??ref--6-1!./node_modules/sass-loader/lib/loader.js??ref--6-2!./src/components/rom_selector/styles.scss");
-
-if(typeof content === 'string') content = [[module.i, content, '']];
-
-var transform;
-var insertInto;
-
-
-
-var options = {"hmr":true}
-
-options.transform = transform
-options.insertInto = undefined;
-
-var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
-
-if(content.locals) module.exports = content.locals;
-
-if(false) {}
-
-/***/ }),
-
-/***/ "./src/index.js":
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-var _app = __webpack_require__(/*! ./app.js */ "./src/app.js");
-
-var _app2 = _interopRequireDefault(_app);
-
-var _reactDom = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
-
-var _reactDom2 = _interopRequireDefault(_reactDom);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-_reactDom2.default.render(_react2.default.createElement(_app2.default, null), document.querySelector('#root'));
-
-/***/ }),
-
-/***/ "./src/lib/chip8.js":
-/*!**************************!*\
-  !*** ./src/lib/chip8.js ***!
-  \**************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(module) {
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _fontset = __webpack_require__(/*! ./fontset.js */ "./src/lib/fontset.js");
+var _fontset = __webpack_require__(/*! ./fontset.js */ "./src/components/Emulator/lib/fontset.js");
 
 var _fontset2 = _interopRequireDefault(_fontset);
 
@@ -32992,22 +32628,22 @@ exports.default = _default;
     return;
   }
 
-  reactHotLoader.register(screenWidth, 'screenWidth', '/Users/sleroux/development/chip8-js/src/lib/chip8.js');
-  reactHotLoader.register(screenHeight, 'screenHeight', '/Users/sleroux/development/chip8-js/src/lib/chip8.js');
-  reactHotLoader.register(Chip8Emulator, 'Chip8Emulator', '/Users/sleroux/development/chip8-js/src/lib/chip8.js');
-  reactHotLoader.register(_default, 'default', '/Users/sleroux/development/chip8-js/src/lib/chip8.js');
+  reactHotLoader.register(screenWidth, 'screenWidth', '/Users/sleroux/development/chip8-js/src/components/Emulator/lib/chip8.js');
+  reactHotLoader.register(screenHeight, 'screenHeight', '/Users/sleroux/development/chip8-js/src/components/Emulator/lib/chip8.js');
+  reactHotLoader.register(Chip8Emulator, 'Chip8Emulator', '/Users/sleroux/development/chip8-js/src/components/Emulator/lib/chip8.js');
+  reactHotLoader.register(_default, 'default', '/Users/sleroux/development/chip8-js/src/components/Emulator/lib/chip8.js');
   leaveModule(module);
 })();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../node_modules/webpack/buildin/module.js */ "./node_modules/webpack/buildin/module.js")(module)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../node_modules/webpack/buildin/module.js */ "./node_modules/webpack/buildin/module.js")(module)))
 
 /***/ }),
 
-/***/ "./src/lib/fontset.js":
-/*!****************************!*\
-  !*** ./src/lib/fontset.js ***!
-  \****************************/
+/***/ "./src/components/Emulator/lib/fontset.js":
+/*!************************************************!*\
+  !*** ./src/components/Emulator/lib/fontset.js ***!
+  \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -33052,12 +32688,524 @@ exports.default = _default;
     return;
   }
 
-  reactHotLoader.register(_default, "default", "/Users/sleroux/development/chip8-js/src/lib/fontset.js");
+  reactHotLoader.register(_default, "default", "/Users/sleroux/development/chip8-js/src/components/Emulator/lib/fontset.js");
   leaveModule(module);
 })();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../node_modules/webpack/buildin/module.js */ "./node_modules/webpack/buildin/module.js")(module)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../node_modules/webpack/buildin/module.js */ "./node_modules/webpack/buildin/module.js")(module)))
+
+/***/ }),
+
+/***/ "./src/components/KeyboardLayout/KeyboardLayout.jsx":
+/*!**********************************************************!*\
+  !*** ./src/components/KeyboardLayout/KeyboardLayout.jsx ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(module) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _KeyboardLayout = __webpack_require__(/*! ./KeyboardLayout.scss */ "./src/components/KeyboardLayout/KeyboardLayout.scss");
+
+var _KeyboardLayout2 = _interopRequireDefault(_KeyboardLayout);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+(function () {
+  var enterModule = __webpack_require__(/*! react-hot-loader */ "./node_modules/react-hot-loader/index.js").enterModule;
+
+  enterModule && enterModule(module);
+})();
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var hexToKeyMap = {
+  "1": "1",
+  "2": "2",
+  "3": "3",
+  "4": "Q",
+  "5": "W",
+  "6": "E",
+  "D": "R",
+  "7": "A",
+  "8": "S",
+  "9": "D",
+  "E": "F",
+  "A": "Z",
+  "0": "X",
+  "B": "C",
+  "F": "V"
+};
+
+var KeyboardLayout = function (_React$Component) {
+  _inherits(KeyboardLayout, _React$Component);
+
+  function KeyboardLayout() {
+    _classCallCheck(this, KeyboardLayout);
+
+    return _possibleConstructorReturn(this, (KeyboardLayout.__proto__ || Object.getPrototypeOf(KeyboardLayout)).apply(this, arguments));
+  }
+
+  _createClass(KeyboardLayout, [{
+    key: 'renderKeybinding',
+    value: function renderKeybinding(k) {
+      var keybinding = hexToKeyMap[k];
+      return _react2.default.createElement(
+        'td',
+        { key: keybinding },
+        _react2.default.createElement(
+          'p',
+          null,
+          keybinding
+        )
+      );
+    }
+  }, {
+    key: 'renderKeypad',
+    value: function renderKeypad(k) {
+      return _react2.default.createElement(
+        'td',
+        { key: k },
+        _react2.default.createElement(
+          'p',
+          null,
+          k
+        )
+      );
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      return _react2.default.createElement(
+        'div',
+        { className: _KeyboardLayout2.default.key_layout_container },
+        _react2.default.createElement(
+          'h2',
+          { className: _KeyboardLayout2.default.title },
+          'keybindings'
+        ),
+        _react2.default.createElement(
+          'table',
+          null,
+          _react2.default.createElement(
+            'tbody',
+            null,
+            _react2.default.createElement(
+              'tr',
+              null,
+              _react2.default.createElement(
+                'td',
+                null,
+                _react2.default.createElement(
+                  'p',
+                  null,
+                  'keypad'
+                )
+              ),
+              Object.keys(hexToKeyMap).map(this.renderKeypad)
+            ),
+            _react2.default.createElement(
+              'tr',
+              null,
+              _react2.default.createElement(
+                'td',
+                null,
+                _react2.default.createElement(
+                  'p',
+                  null,
+                  'keyboard'
+                )
+              ),
+              Object.keys(hexToKeyMap).map(this.renderKeybinding)
+            )
+          )
+        )
+      );
+    }
+  }, {
+    key: '__reactstandin__regenerateByEval',
+    // @ts-ignore
+    value: function __reactstandin__regenerateByEval(key, code) {
+      // @ts-ignore
+      this[key] = eval(code);
+    }
+  }]);
+
+  return KeyboardLayout;
+}(_react2.default.Component);
+
+var _default = KeyboardLayout;
+exports.default = _default;
+;
+
+(function () {
+  var reactHotLoader = __webpack_require__(/*! react-hot-loader */ "./node_modules/react-hot-loader/index.js").default;
+
+  var leaveModule = __webpack_require__(/*! react-hot-loader */ "./node_modules/react-hot-loader/index.js").leaveModule;
+
+  if (!reactHotLoader) {
+    return;
+  }
+
+  reactHotLoader.register(hexToKeyMap, 'hexToKeyMap', '/Users/sleroux/development/chip8-js/src/components/KeyboardLayout/KeyboardLayout.jsx');
+  reactHotLoader.register(KeyboardLayout, 'KeyboardLayout', '/Users/sleroux/development/chip8-js/src/components/KeyboardLayout/KeyboardLayout.jsx');
+  reactHotLoader.register(_default, 'default', '/Users/sleroux/development/chip8-js/src/components/KeyboardLayout/KeyboardLayout.jsx');
+  leaveModule(module);
+})();
+
+;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../node_modules/webpack/buildin/module.js */ "./node_modules/webpack/buildin/module.js")(module)))
+
+/***/ }),
+
+/***/ "./src/components/KeyboardLayout/KeyboardLayout.scss":
+/*!***********************************************************!*\
+  !*** ./src/components/KeyboardLayout/KeyboardLayout.scss ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--6-1!../../../node_modules/sass-loader/lib/loader.js??ref--6-2!./KeyboardLayout.scss */ "./node_modules/css-loader/index.js??ref--6-1!./node_modules/sass-loader/lib/loader.js??ref--6-2!./src/components/KeyboardLayout/KeyboardLayout.scss");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./src/components/KeyboardLayout/index.js":
+/*!************************************************!*\
+  !*** ./src/components/KeyboardLayout/index.js ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(module) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _KeyboardLayout = __webpack_require__(/*! ./KeyboardLayout.jsx */ "./src/components/KeyboardLayout/KeyboardLayout.jsx");
+
+var _KeyboardLayout2 = _interopRequireDefault(_KeyboardLayout);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+(function () {
+  var enterModule = __webpack_require__(/*! react-hot-loader */ "./node_modules/react-hot-loader/index.js").enterModule;
+
+  enterModule && enterModule(module);
+})();
+
+var _default = _KeyboardLayout2.default;
+exports.default = _default;
+;
+
+(function () {
+  var reactHotLoader = __webpack_require__(/*! react-hot-loader */ "./node_modules/react-hot-loader/index.js").default;
+
+  var leaveModule = __webpack_require__(/*! react-hot-loader */ "./node_modules/react-hot-loader/index.js").leaveModule;
+
+  if (!reactHotLoader) {
+    return;
+  }
+
+  reactHotLoader.register(_default, 'default', '/Users/sleroux/development/chip8-js/src/components/KeyboardLayout/index.js');
+  leaveModule(module);
+})();
+
+;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../node_modules/webpack/buildin/module.js */ "./node_modules/webpack/buildin/module.js")(module)))
+
+/***/ }),
+
+/***/ "./src/components/ROMSelector/ROMSelector.jsx":
+/*!****************************************************!*\
+  !*** ./src/components/ROMSelector/ROMSelector.jsx ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(module) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+var _ROMSelector = __webpack_require__(/*! ./ROMSelector.scss */ "./src/components/ROMSelector/ROMSelector.scss");
+
+var _ROMSelector2 = _interopRequireDefault(_ROMSelector);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+(function () {
+  var enterModule = __webpack_require__(/*! react-hot-loader */ "./node_modules/react-hot-loader/index.js").enterModule;
+
+  enterModule && enterModule(module);
+})();
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var availableRoms = ["15PUZZLE", "BLINKY", "BRIX", "BLITZ", "CONNECT4", "GUESS", "HIDDEN", "INVADERS", "KALEID", "MAZE", "MERLIN", "MISSLE", "PONG", "PONG2", "PUZZLE", "SYZYGY", "TANK", "TETRIS", "TICTAC", "UFO", "VBRIX", "VERS", "WIPEOFF"];
+
+var ROMSelector = function (_React$Component) {
+  _inherits(ROMSelector, _React$Component);
+
+  function ROMSelector() {
+    var _ref;
+
+    var _temp, _this, _ret;
+
+    _classCallCheck(this, ROMSelector);
+
+    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = ROMSelector.__proto__ || Object.getPrototypeOf(ROMSelector)).call.apply(_ref, [this].concat(args))), _this), _this.state = {
+      selectedRom: availableRoms[0]
+    }, _this.onChangeSelection = function (e) {
+      var romName = e.target.value;
+      _this.setState(function (prevState) {
+        return _extends({}, prevState, {
+          selectedRom: romName
+        });
+      });
+    }, _temp), _possibleConstructorReturn(_this, _ret);
+  }
+
+  _createClass(ROMSelector, [{
+    key: 'renderROMOption',
+    value: function renderROMOption(rom) {
+      return _react2.default.createElement(
+        'option',
+        { key: rom, value: rom },
+        rom
+      );
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      var _this2 = this;
+
+      return _react2.default.createElement(
+        'div',
+        { className: _ROMSelector2.default.rom_selector },
+        _react2.default.createElement(
+          'p',
+          { className: _ROMSelector2.default.select_a_row },
+          'select a rom'
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: _ROMSelector2.default.rom_option_button },
+          _react2.default.createElement(
+            'select',
+            { className: _ROMSelector2.default.rom_selection, value: this.state.selectedRom, onChange: this.onChangeSelection },
+            availableRoms.map(this.renderROMOption)
+          ),
+          _react2.default.createElement(
+            'button',
+            { className: _ROMSelector2.default.rom_load_button, onClick: function onClick() {
+                _this2.props.onLoadRom(_this2.state.selectedRom);
+              } },
+            'load'
+          )
+        )
+      );
+    }
+  }, {
+    key: '__reactstandin__regenerateByEval',
+    // @ts-ignore
+    value: function __reactstandin__regenerateByEval(key, code) {
+      // @ts-ignore
+      this[key] = eval(code);
+    }
+  }]);
+
+  return ROMSelector;
+}(_react2.default.Component);
+
+ROMSelector.propTypes = {
+  onLoadRom: _propTypes2.default.func.isRequired
+};
+var _default = ROMSelector;
+exports.default = _default;
+;
+
+(function () {
+  var reactHotLoader = __webpack_require__(/*! react-hot-loader */ "./node_modules/react-hot-loader/index.js").default;
+
+  var leaveModule = __webpack_require__(/*! react-hot-loader */ "./node_modules/react-hot-loader/index.js").leaveModule;
+
+  if (!reactHotLoader) {
+    return;
+  }
+
+  reactHotLoader.register(availableRoms, 'availableRoms', '/Users/sleroux/development/chip8-js/src/components/ROMSelector/ROMSelector.jsx');
+  reactHotLoader.register(ROMSelector, 'ROMSelector', '/Users/sleroux/development/chip8-js/src/components/ROMSelector/ROMSelector.jsx');
+  reactHotLoader.register(_default, 'default', '/Users/sleroux/development/chip8-js/src/components/ROMSelector/ROMSelector.jsx');
+  leaveModule(module);
+})();
+
+;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../node_modules/webpack/buildin/module.js */ "./node_modules/webpack/buildin/module.js")(module)))
+
+/***/ }),
+
+/***/ "./src/components/ROMSelector/ROMSelector.scss":
+/*!*****************************************************!*\
+  !*** ./src/components/ROMSelector/ROMSelector.scss ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--6-1!../../../node_modules/sass-loader/lib/loader.js??ref--6-2!./ROMSelector.scss */ "./node_modules/css-loader/index.js??ref--6-1!./node_modules/sass-loader/lib/loader.js??ref--6-2!./src/components/ROMSelector/ROMSelector.scss");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./src/components/ROMSelector/index.js":
+/*!*********************************************!*\
+  !*** ./src/components/ROMSelector/index.js ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(module) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _ROMSelector = __webpack_require__(/*! ./ROMSelector.jsx */ "./src/components/ROMSelector/ROMSelector.jsx");
+
+var _ROMSelector2 = _interopRequireDefault(_ROMSelector);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+(function () {
+  var enterModule = __webpack_require__(/*! react-hot-loader */ "./node_modules/react-hot-loader/index.js").enterModule;
+
+  enterModule && enterModule(module);
+})();
+
+var _default = _ROMSelector2.default;
+exports.default = _default;
+;
+
+(function () {
+  var reactHotLoader = __webpack_require__(/*! react-hot-loader */ "./node_modules/react-hot-loader/index.js").default;
+
+  var leaveModule = __webpack_require__(/*! react-hot-loader */ "./node_modules/react-hot-loader/index.js").leaveModule;
+
+  if (!reactHotLoader) {
+    return;
+  }
+
+  reactHotLoader.register(_default, 'default', '/Users/sleroux/development/chip8-js/src/components/ROMSelector/index.js');
+  leaveModule(module);
+})();
+
+;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../node_modules/webpack/buildin/module.js */ "./node_modules/webpack/buildin/module.js")(module)))
+
+/***/ }),
+
+/***/ "./src/index.js":
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _App = __webpack_require__(/*! ./App.jsx */ "./src/App.jsx");
+
+var _App2 = _interopRequireDefault(_App);
+
+var _reactDom = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+
+var _reactDom2 = _interopRequireDefault(_reactDom);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+_reactDom2.default.render(_react2.default.createElement(_App2.default, null), document.querySelector('#root'));
 
 /***/ }),
 
