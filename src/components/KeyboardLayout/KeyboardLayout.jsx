@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './styles.scss';
+import styles from './KeyboardLayout.scss';
 
 const hexToKeyMap = {
   "1": "1",
@@ -20,25 +20,32 @@ const hexToKeyMap = {
 };
 
 export default class KeyboardLayout extends React.Component {
+
+  renderKeybinding(k) {
+    const keybinding = hexToKeyMap[k];
+    return <td key={keybinding}><p>{keybinding}</p></td>;
+  }
+
+  renderKeypad(k) {
+    return <td key={k}><p>{k}</p></td>
+  }
+
   render() {
     return (
-      <div className="key_layout_container">
-        <h2 className="title">keybindings</h2>
+      <div className={styles.key_layout_container}>
+        <h2 className={styles.title}>keybindings</h2>
         <table>
           <tbody>
             <tr>
               <td><p>keypad</p></td>
               {
-                Object.keys(hexToKeyMap).map(k => <td key={k}><p>{k}</p></td>)
+                Object.keys(hexToKeyMap).map(this.renderKeypad)
               }
             </tr>
             <tr>
               <td><p>keyboard</p></td>
               {
-                Object.keys(hexToKeyMap).map((k) => {
-                  const keybinding = hexToKeyMap[k];
-                  return <td key={keybinding}><p>{keybinding}</p></td>
-                })
+                Object.keys(hexToKeyMap).map(this.renderKeybinding)
               }
             </tr>
           </tbody>

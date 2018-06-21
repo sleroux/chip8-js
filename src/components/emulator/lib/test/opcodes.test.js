@@ -1,5 +1,5 @@
-import Chip8Emulator from '../src/lib/chip8.js';
-import fontset from '../src/lib/fontset.js';
+import Chip8Emulator from '../chip8.js';
+import fontset from '../fontset.js';
 
 test('opcode 0x00E0 clears the screen', () => {
   const emulator = new Chip8Emulator();

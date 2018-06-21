@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from './styles.scss';
+import styles from './ROMSelector.scss';
 
 const availableRoms = [
   "15PUZZLE",
@@ -47,20 +47,23 @@ export default class ROMSelector extends React.Component {
     });
   }
 
+  renderROMOption(rom) {
+    return <option key={rom} value={rom}>{rom}</option>;
+  }
+
   render() {
     return (
-      <div className="rom_selector">
-        <p className="select_a_rom" >select a rom</p>
-        <div className="rom_option_button">
-          <select className="rom_selection" value={this.state.selectedRom} onChange={this.onChangeSelection} >
+      <div className={styles.rom_selector}>
+        <p className={styles.select_a_row} >select a rom</p>
+        <div className={styles.rom_option_button}>
+          <select className={styles.rom_selection} value={this.state.selectedRom} onChange={this.onChangeSelection} >
             {
-              availableRoms.map(rom => <option key={rom} value={rom}>{rom}</option>)
+              availableRoms.map(this.renderROMOption)
             }
           </select>
-          <button className="rom_load_button" onClick={() => { this.props.onLoadRom(this.state.selectedRom) }}>load</button>
+          <button className={styles.rom_load_button} onClick={() => { this.props.onLoadRom(this.state.selectedRom) }}>load</button>
         </div>
       </div>
     );
   }
 }
-

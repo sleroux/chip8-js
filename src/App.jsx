@@ -1,16 +1,14 @@
 import React from 'react';
-import Emulator from './components/emulator';
-import ROMSelector from './components/rom_selector';
+
+import Emulator from './components/Emulator';
+import ROMSelector from './components/ROMSelector';
+import KeyboardLayout from './components/KeyboardLayout';
 
 import { hot } from 'react-hot-loader';
 
 import styles from './styles.scss';
-import KeyboardLayout from './components/keyboard_layout';
-
-const production = true;
 
 class App extends React.Component {
-
   state = {
     selectedRom: null
   }
@@ -20,8 +18,7 @@ class App extends React.Component {
   }
 
   onLoadRom = async (romName) => {
-    const urlRoot = production ? "https://sleroux.github.com/chip8-js" : "http://localhost:8080";
-    const romUrl = urlRoot + "/roms/" + romName;
+    const romUrl = "/roms/" + romName;
     const response = await fetch(romUrl);
     const arrayBuffer = await response.arrayBuffer();
     const romData = new Uint8Array(arrayBuffer);

@@ -1,9 +1,9 @@
 import fs from 'fs';
 
-import Chip8Emulator from '../src/lib/chip8.js';
-import fontset from '../src/lib/fontset.js';
+import Chip8Emulator from '../chip8.js';
+import fontset from '../fontset.js';
 
-const testProgramPath = "/programs/MAZE";
+const testProgramPath = "/../../../../../roms/MAZE";
 
 test('constructor sets up assigns font set to memory 0x000->0x050', () => {
   const emulator = new Chip8Emulator();
