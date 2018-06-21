@@ -31807,7 +31807,7 @@ var App = function (_React$Component) {
               case 0:
                 romUrl = "/roms/" + romName;
                 _context.next = 3;
-                return fetch(romUrl);
+                return fetch("chip8-js" + romUrl);
 
               case 3:
                 response = _context.sent;
